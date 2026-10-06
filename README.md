@@ -22,11 +22,14 @@ Modernized web application for **Thilhara Ref & Electricals**, Sri Lanka's pione
 thilhara/
 ├── client/                     # React Frontend (Vite)
 │   ├── src/
+│   │   ├── pages/              # Page Views
+│   │   │   ├── HomePage.jsx    # Home landing page with featured hardware preview
+│   │   │   └── ProductsPage.jsx# Dedicated Products & Spares page with category sidebar
 │   │   ├── components/         # Modular Components
-│   │   │   ├── Navbar.jsx      # Sticky header with live Sri Lanka open/closed calculator
-│   │   │   ├── Hero.jsx        # Futuristic cooling hero with animated metrics
+│   │   │   ├── Navbar.jsx      # Sticky header with client-side routing & live status
+│   │   │   ├── Hero.jsx        # Cooling hero with animated metrics & catalog CTA
 │   │   │   ├── FeaturePillars.jsx # Ultra Power Saving, Hyper Cooling, Universal Brands
-│   │   │   ├── ProductsCatalog.jsx # Live category filters, instant search & specs modal
+│   │   │   ├── ProductsCatalog.jsx # Catalog component with specs modal
 │   │   │   ├── ServicesSection.jsx # Cold storage, VRF, AMC & rapid spares
 │   │   │   ├── WhyChooseUs.jsx # 25+ years heritage narrative & key client metrics
 │   │   │   ├── WorkingHours.jsx# Weekly operating schedule with real-time status pill
@@ -35,7 +38,7 @@ thilhara/
 │   │   │   ├── ContactSection.jsx # Inquiry form wired to Go REST API
 │   │   │   ├── QuoteModal.jsx  # Engineering quote & proposal builder modal
 │   │   │   └── Footer.jsx      # Navigation links, contact info, and system indicators
-│   │   ├── App.jsx
+│   │   ├── App.jsx             # React Router setup (/ and /products)
 │   │   ├── index.css           # Modern Vanilla CSS design system
 │   │   └── main.jsx
 │   └── package.json

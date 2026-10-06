@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, PhoneCall, Award, Building2, Zap, Wind, CheckCircle2 } from 'lucide-react';
 
 const slides = [
@@ -93,13 +94,13 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
                 <ArrowRight size={18} />
               </button>
 
-              <button
-                onClick={onExploreProducts}
+              <Link
+                to="/products"
                 className="btn-secondary"
-                style={{ padding: '0.95rem 1.85rem' }}
+                style={{ padding: '0.95rem 1.85rem', textDecoration: 'none' }}
               >
-                <span>Browse Products</span>
-              </button>
+                <span>Browse Products & Spares</span>
+              </Link>
 
               <a
                 href="tel:+94112314355"

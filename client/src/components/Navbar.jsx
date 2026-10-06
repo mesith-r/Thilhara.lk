@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Snowflake, Phone, Menu, X, Clock, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export default function Navbar({ onOpenQuote, activeSection, setActiveSection }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isOpenNow, setIsOpenNow] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Check if open in Colombo (UTC+5:30)
@@ -39,22 +42,56 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
   }, []);
 
   const navItems = [
-    { label: 'Home', id: 'home' },
-    { label: 'Products & Spares', id: 'products' },
-    { label: 'Services & Support', id: 'services' },
-    { label: 'Why Choose Us', id: 'about' },
-    { label: 'Reviews', id: 'reviews' },
-    { label: 'Working Hours', id: 'hours' },
-    { label: 'Contact', id: 'contact' },
+    { label: 'Home', id: 'home', path: '/' },
+    { label: 'Products & Spares', id: 'products', path: '/products' },
+    { label: 'Services & Support', id: 'services', hash: 'services' },
+    { label: 'Why Choose Us', id: 'about', hash: 'about' },
+    { label: 'Reviews', id: 'reviews', hash: 'reviews' },
+    { label: 'Working Hours', id: 'hours', hash: 'hours' },
+    { label: 'Contact', id: 'contact', hash: 'contact' },
   ];
 
-  const scrollTo = (id) => {
-    setActiveSection(id);
+  const handleNavClick = (item) => {
     setMobileMenuOpen(false);
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+
+    if (item.path === '/products') {
+      navigate('/products');
+      window.scrollTo(0, 0);
+      return;
     }
+
+    if (item.path === '/') {
+      if (location.pathname !== '/') {
+        navigate('/');
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setActiveSection('home');
+      return;
+    }
+
+    if (item.hash) {
+      if (location.pathname !== '/') {
+        navigate('/');
+        setTimeout(() => {
+          const element = document.getElementById(item.hash);
+          if (element) element.scrollIntoView({ behavior: 'smooth' });
+        }, 150);
+      } else {
+        const element = document.getElementById(item.hash);
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+      }
+      setActiveSection(item.id);
+    }
+  };
+
+  const isItemActive = (item) => {
+    if (item.id === 'products') {
+      return location.pathname === '/products';
+    }
+    if (location.pathname === '/products') {
+      return false;
+    }
+    return activeSection === item.id;
   };
 
   return (
@@ -97,7 +134,7 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
       }}>
         <div className="container navbar-container">
           {/* Logo */}
-          <a href="#home" onClick={() => scrollTo('home')} className="brand-logo">
+          <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="brand-logo" style={{ textDecoration: 'none' }}>
             <div className="brand-logo-icon">
               <Snowflake size={24} color="#ffffff" />
             </div>
@@ -105,15 +142,15 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
               <div className="brand-title">THILHARA</div>
               <div className="brand-subtitle">Cooling Solution Partner</div>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <ul className="nav-links">
             {navItems.map((item) => (
               <li key={item.id}>
                 <button
-                  onClick={() => scrollTo(item.id)}
-                  className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
+                  onClick={() => handleNavClick(item)}
+                  className={`nav-link ${isItemActive(item) ? 'active' : ''}`}
                 >
                   {item.label}
                 </button>
@@ -163,12 +200,12 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
             {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => scrollTo(item.id)}
+                onClick={() => handleNavClick(item)}
                 style={{
                   textAlign: 'left',
                   fontSize: '1.05rem',
                   fontWeight: 600,
-                  color: activeSection === item.id ? 'var(--primary-blue)' : 'var(--text-body)',
+                  color: isItemActive(item) ? 'var(--primary-blue)' : 'var(--text-body)',
                   padding: '0.65rem 0',
                   borderBottom: '1px solid var(--border-light)'
                 }}

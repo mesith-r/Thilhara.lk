@@ -144,6 +144,9 @@ client/
     ├── main.jsx
     ├── App.jsx
     ├── index.css
+    ├── pages/
+    │   ├── HomePage.jsx
+    │   └── ProductsPage.jsx
     └── components/
         ├── Navbar.jsx
         ├── Hero.jsx
@@ -159,7 +162,7 @@ client/
         └── Footer.jsx
 ```
 
-#### Core Files:
+#### Core Files & Pages:
 1. **[`client/index.html`](file:///d:/Education/INternship/thilhara/client/index.html)**:
    - Root HTML template.
    - Loads modern Google Web Fonts (`Outfit` for crisp headings and `Plus Jakarta Sans` for readable body text).
@@ -168,6 +171,18 @@ client/
 2. **[`client/src/main.jsx`](file:///d:/Education/INternship/thilhara/client/src/main.jsx)**:
    - React application entrypoint.
    - Mounts the root `<App />` component into the DOM `#root` element.
+
+3. **[`client/src/App.jsx`](file:///d:/Education/INternship/thilhara/client/src/App.jsx)**:
+   - Configures `react-router-dom` with routes for `/` (`HomePage`) and `/products` (`ProductsPage`).
+   - Hosts global components (Ambient glowing orbs, Navbar, Quote Modal, Footer).
+
+4. **[`client/src/pages/HomePage.jsx`](file:///d:/Education/INternship/thilhara/client/src/pages/HomePage.jsx)**:
+   - Main landing page.
+   - Features the Hero banner, Feature Pillars, Featured Hardware preview cards with direct link to the full catalog, Services & Support, Why Choose Us, Working Hours, Testimonials, Partners, and Contact section.
+
+5. **[`client/src/pages/ProductsPage.jsx`](file:///d:/Education/INternship/thilhara/client/src/pages/ProductsPage.jsx)**:
+   - Dedicated **Products & Accessories** page mirroring the original `products.php`.
+   - Complete category sidebar with subcategories, item counts, search input, product cards grid, and technical specs inspection modal.
 
 3. **[`client/src/index.css`](file:///d:/Education/INternship/thilhara/client/src/index.css)**:
    - **Central Design System**.
