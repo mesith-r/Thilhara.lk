@@ -1,229 +1,260 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, PhoneCall, Award, Building2, Zap, Wind, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Truck, ShieldCheck, Headphones, Award } from 'lucide-react';
 
-const slides = [
-  {
-    title: "Cool Comfort, Premium Products",
-    tagline: "Commercial Air Conditioning & Cold Room Systems",
-    description: "Discover our extensive range of air conditioners and refrigeration hardware designed to keep your facilities cool and efficient, no matter the season.",
-    highlight: "Trusted Sri Lankan Cooling Partner Since 1998"
-  },
-  {
-    title: "The Future of Cool, Under One Roof",
-    tagline: "Copeland, LG, Embraco & Refco Swiss Accessories",
-    description: "Enhance your cooling setup with top-quality accessories and genuine OEM compressors. Elevate your operational comfort and thermodynamic efficiency.",
-    highlight: "100% Genuine Certified Hardware & Spare Parts"
-  },
-  {
-    title: "Cooling Experts, Dedicated World",
-    tagline: "Turnkey Cold Storage & Preventative Maintenance",
-    description: "Join us for a more comfortable, reliable world. Dedicated to transforming residential, commercial, and industrial spaces with innovative climate solutions.",
-    highlight: "Over 1,650+ Industrial Facilities Powered"
-  }
-];
-
-export default function Hero({ onOpenQuote, onExploreProducts }) {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 6500);
-    return () => clearInterval(timer);
-  }, []);
-
-  const slide = slides[currentSlide];
+export default function Hero({ onOpenQuote }) {
+  const trustFeatures = [
+    {
+      icon: Truck,
+      title: "Islandwide Delivery",
+      subtitle: "Fast dispatch across Sri Lanka"
+    },
+    {
+      icon: ShieldCheck,
+      title: "100% Genuine OEM",
+      subtitle: "Authorized brand equipment"
+    },
+    {
+      icon: Headphones,
+      title: "24/7 Support",
+      subtitle: "Emergency breakdown service"
+    },
+    {
+      icon: Award,
+      title: "Factory Warranty",
+      subtitle: "1 Year guaranteed warranty"
+    }
+  ];
 
   return (
-    <section id="home" style={{
+    <section style={{
       position: 'relative',
-      paddingTop: '3.5rem',
-      paddingBottom: '5.5rem',
-      background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
-      overflow: 'hidden'
+      background: '#ffffff',
+      paddingTop: '2.5rem',
+      paddingBottom: '2.5rem',
+      overflow: 'hidden',
+      borderBottom: '1px solid #f1f5f9'
     }}>
       <div className="container">
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1.25fr) minmax(0, 0.75fr)',
-          gap: '3.5rem',
+          gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 1fr)',
+          gap: '2.5rem',
           alignItems: 'center'
-        }} className="hero-grid">
+        }} className="hero-layout-grid">
 
-          {/* Left Column: Headline & Value Prop */}
-          <div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.25rem' }}>
-              <span className="badge badge-red">
-                <Zap size={14} />
-                {slide.highlight}
-              </span>
-            </div>
-
+          {/* Left Column: Heading, Subtext, CTA Button & 4 Trust Features */}
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            {/* Bold Headline */}
             <h1 style={{
-              fontSize: 'clamp(2.5rem, 5vw, 3.85rem)',
-              lineHeight: 1.15,
-              marginBottom: '1.25rem',
+              fontSize: 'clamp(2.4rem, 4.8vw, 3.6rem)',
+              lineHeight: 1.12,
               fontWeight: 800,
-              color: 'var(--text-main)'
+              letterSpacing: '-0.03em',
+              color: '#0f172a',
+              marginBottom: '1rem',
+              fontFamily: 'var(--font-heading)'
             }}>
-              {slide.title.split(',')[0]}, <br />
+              Powerful Cooling.<br />
               <span style={{ color: 'var(--primary-blue)' }}>
-                {slide.title.split(',')[1] || slide.tagline}
+                Better Every Day.
               </span>
             </h1>
 
+            {/* Subtitle */}
             <p style={{
-              fontSize: '1.15rem',
-              color: 'var(--text-body)',
-              marginBottom: '2.5rem',
-              maxWidth: '620px',
-              lineHeight: 1.7
+              fontSize: '1.08rem',
+              lineHeight: 1.6,
+              color: '#475569',
+              maxWidth: '520px',
+              marginBottom: '1.75rem'
             }}>
-              {slide.description}
+              Discover the latest commercial cooling systems and genuine refrigeration equipment designed to simplify your operations and power your world.
             </p>
 
-            {/* CTAs */}
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-              <button
-                onClick={onOpenQuote}
-                className="btn-primary"
-                style={{ padding: '0.95rem 2rem', fontSize: '1rem' }}
-              >
-                <span>Request Project Quote</span>
-                <ArrowRight size={18} />
-              </button>
-
+            {/* CTA Button Group */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap', marginBottom: '2.25rem' }}>
               <Link
                 to="/products"
-                className="btn-secondary"
-                style={{ padding: '0.95rem 1.85rem', textDecoration: 'none' }}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.65rem',
+                  background: 'var(--primary-blue)',
+                  color: '#ffffff',
+                  padding: '0.85rem 2.15rem',
+                  borderRadius: '50px',
+                  fontWeight: 700,
+                  fontSize: '0.92rem',
+                  letterSpacing: '0.04em',
+                  textTransform: 'uppercase',
+                  boxShadow: '0 8px 20px -4px rgba(63, 64, 150, 0.4)',
+                  transition: 'all 0.25s ease',
+                  textDecoration: 'none'
+                }}
+                className="hero-shop-pill-btn"
               >
-                <span>Browse Products & Spares</span>
+                <span>SHOP NOW</span>
+                <ArrowRight size={17} />
               </Link>
 
-              <a
-                href="tel:+94112314355"
+              <button
+                onClick={onOpenQuote}
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  padding: '0.95rem 1.5rem',
-                  borderRadius: 'var(--radius-md)',
-                  background: 'var(--primary-blue-light)',
-                  border: '1.5px solid rgba(63, 64, 150, 0.25)',
-                  color: 'var(--primary-blue)',
-                  fontWeight: 700
+                  background: '#f8fafc',
+                  color: '#0f172a',
+                  border: '1.5px solid #e2e8f0',
+                  padding: '0.8rem 1.6rem',
+                  borderRadius: '50px',
+                  fontWeight: 600,
+                  fontSize: '0.92rem',
+                  transition: 'all 0.2s ease',
+                  cursor: 'pointer'
                 }}
+                className="hero-quote-pill-btn"
               >
-                <PhoneCall size={18} color="var(--primary-red)" />
-                <span>Call Hotline</span>
-              </a>
+                <span>Request a Quote</span>
+              </button>
             </div>
 
-            {/* Slide Navigation Dots */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-              {slides.map((_, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setCurrentSlide(idx)}
-                  style={{
-                    width: currentSlide === idx ? '32px' : '10px',
-                    height: '10px',
-                    borderRadius: '5px',
-                    background: currentSlide === idx ? 'var(--primary-blue)' : '#cbd5e1',
-                    transition: 'all 0.3s ease'
-                  }}
-                  aria-label={`Go to slide ${idx + 1}`}
-                />
-              ))}
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginLeft: '0.5rem', fontWeight: 600 }}>
-                0{currentSlide + 1} / 0{slides.length}
-              </span>
+            {/* 4 Trust Features Row - Matching Reference Screenshot */}
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              gap: '1rem',
+              paddingTop: '1.75rem',
+              borderTop: '1px solid #f1f5f9'
+            }} className="hero-trust-grid">
+              {trustFeatures.map((item, index) => {
+                const IconComponent = item.icon;
+                return (
+                  <div
+                    key={index}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'flex-start',
+                      gap: '0.65rem'
+                    }}
+                  >
+                    <div style={{
+                      color: '#1e293b',
+                      flexShrink: 0,
+                      marginTop: '2px'
+                    }}>
+                      <IconComponent size={20} strokeWidth={1.8} />
+                    </div>
+                    <div>
+                      <div style={{
+                        fontSize: '0.84rem',
+                        fontWeight: 700,
+                        color: '#0f172a',
+                        lineHeight: 1.25,
+                        marginBottom: '0.2rem'
+                      }}>
+                        {item.title}
+                      </div>
+                      <div style={{
+                        fontSize: '0.73rem',
+                        color: '#64748b',
+                        lineHeight: 1.3
+                      }}>
+                        {item.subtitle}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
 
-          {/* Right Column: Original Thilhara Trust Card */}
-          <div>
-            <div className="white-card" style={{
-              background: '#ffffff',
-              border: '2px solid rgba(63, 64, 150, 0.15)',
-              boxShadow: 'var(--shadow-xl)',
-              padding: '2.5rem 2rem'
+          {/* Right Column: Clean Studio Product Arrangement Showcase */}
+          <div style={{
+            position: 'relative',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <div style={{
+              position: 'relative',
+              width: '100%',
+              borderRadius: '20px',
+              overflow: 'hidden',
+              background: '#f8fafc',
+              border: '1px solid rgba(226, 232, 240, 0.8)',
+              boxShadow: '0 20px 45px -12px rgba(15, 23, 42, 0.08)'
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-                <span style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--primary-blue)', fontWeight: 800 }}>
-                  Authorized Partner
-                </span>
-                <span className="badge badge-live">
-                  <span className="pulse-dot"></span> Since 1998
-                </span>
-              </div>
+              <img
+                src="/hero-cooling-showcase.jpg"
+                alt="Thilhara Cooling Equipment & Precision Instrumentation Showcase"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  display: 'block',
+                  objectFit: 'cover',
+                  transform: 'scale(1.01)',
+                  transition: 'transform 0.4s ease'
+                }}
+              />
 
-              <h3 style={{ fontSize: '1.65rem', marginBottom: '0.35rem', lineHeight: 1.25, color: 'var(--text-main)' }}>
-                Thilhara Ref & Electricals
-              </h3>
-              <div style={{ color: 'var(--primary-red)', fontSize: '1.1rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-                (Pvt) Limited
-              </div>
-
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem', marginBottom: '2rem' }}>
-                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <div>
-                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>25+ Years of Industry Leadership</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Pioneering Sri Lanka's cooling & refrigeration sector since 1998.</p>
-                  </div>
-                </div>
-
-                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <div>
-                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>1,650+ Corporate Client Projects</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Sri Lankan Airlines, Galadari Hotel, CBL Foods, Abans & SLBC.</p>
-                  </div>
-                </div>
-
-                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                  <div>
-                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>118+ International Direct Partnerships</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Copeland, LG, Honeywell, Refco Swiss, and Embraco.</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Metrics Bar */}
+              {/* Floating Quality Tag */}
               <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
-                gap: '1rem',
-                paddingTop: '1.5rem',
-                borderTop: '1px solid var(--border-light)',
-                textAlign: 'center'
+                position: 'absolute',
+                top: '1rem',
+                right: '1rem',
+                background: 'rgba(255, 255, 255, 0.94)',
+                backdropFilter: 'blur(8px)',
+                padding: '0.45rem 0.95rem',
+                borderRadius: '50px',
+                border: '1px solid rgba(226, 232, 240, 0.9)',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.45rem',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.06)'
               }}>
-                <div>
-                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-blue)' }}>25</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Years Active</div>
-                </div>
-                <div>
-                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-red)' }}>1650+</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Clients</div>
-                </div>
-                <div>
-                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-blue)' }}>118+</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Partners</div>
-                </div>
+                <span style={{
+                  width: '8px',
+                  height: '8px',
+                  borderRadius: '50%',
+                  background: 'var(--primary-red)'
+                }}></span>
+                <span style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0f172a' }}>
+                  Direct OEM Certified
+                </span>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
       <style>{`
-        @media (max-width: 900px) {
-          .hero-grid {
+        .hero-shop-pill-btn:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 12px 24px -4px rgba(63, 64, 150, 0.5) !important;
+          background: #343580 !important;
+        }
+        .hero-quote-pill-btn:hover {
+          background: #f1f5f9 !important;
+          border-color: #cbd5e1 !important;
+          transform: translateY(-1px);
+        }
+        @media (max-width: 1024px) {
+          .hero-layout-grid {
             grid-template-columns: 1fr !important;
+            gap: 2.5rem !important;
+          }
+          .hero-trust-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 1.25rem !important;
+          }
+        }
+        @media (max-width: 600px) {
+          .hero-trust-grid {
+            grid-template-columns: 1fr !important;
+            gap: 1rem !important;
           }
         }
       `}</style>

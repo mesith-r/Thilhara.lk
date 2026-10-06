@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Snowflake, Phone, Menu, X, Clock, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Snowflake, Phone, Menu, X, Clock, ArrowRight, ShieldCheck, Truck, Headphones, ChevronDown, Search } from 'lucide-react';
 
 export default function Navbar({ onOpenQuote, activeSection, setActiveSection }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,10 +43,9 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
 
   const navItems = [
     { label: 'Home', id: 'home', path: '/' },
-    { label: 'Products & Spares', id: 'products', path: '/products' },
+    { label: 'Products & Spares', id: 'products', path: '/products', hasDropdown: true },
     { label: 'Services & Support', id: 'services', hash: 'services' },
     { label: 'Why Choose Us', id: 'about', hash: 'about' },
-    { label: 'Reviews', id: 'reviews', hash: 'reviews' },
     { label: 'Working Hours', id: 'hours', hash: 'hours' },
     { label: 'Contact', id: 'contact', hash: 'contact' },
   ];
@@ -96,33 +95,29 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
 
   return (
     <>
-      {/* Top Banner Notice */}
+      {/* Top Banner Notice - Dark Theme Matching Reference Screenshot */}
       <div style={{
-        background: '#f8fafc',
-        borderBottom: '1px solid var(--border-light)',
-        padding: '0.45rem 1rem',
+        background: '#091124',
+        borderBottom: '1px solid rgba(255, 255, 255, 0.08)',
+        padding: '0.55rem 1rem',
         fontSize: '0.82rem',
-        color: 'var(--text-muted)'
+        color: '#cbd5e1'
       }}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flexWrap: 'wrap' }}>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-main)', fontWeight: 600 }}>
-              <ShieldCheck size={15} color="var(--primary-blue)" />
-              Pioneer Cooling Partner in Sri Lanka Since 1998
-            </span>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-              <Clock size={14} color={isOpenNow ? '#059669' : '#d97706'} />
-              <span>Colombo Showroom: </span>
-              <strong style={{ color: isOpenNow ? '#059669' : '#d97706', fontWeight: 700 }}>
-                {isOpenNow ? 'Open Now (09:00 - 18:00)' : 'Closed Now (Opens 09:00 AM)'}
-              </strong>
-            </span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <Truck size={15} color="#00d2ff" />
+            <span>Islandwide Delivery & Logistics Across Sri Lanka</span>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
-            <a href="tel:+94112314355" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: 'var(--primary-blue)', fontWeight: 700 }}>
-              <Phone size={13} color="var(--primary-red)" />
-              +94 11 2314355
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }} className="top-banner-center">
+            <ShieldCheck size={15} color="#00f5d4" />
+            <span>100% Genuine OEM Certified Hardware | 25 Years Warranty Trust</span>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <a href="tel:+94112314355" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: '#ffffff', fontWeight: 600 }}>
+              <Headphones size={14} color="#00d2ff" />
+              <span>Need Help? <strong style={{ color: '#00d2ff' }}>+94 11 2314355</strong></span>
             </a>
           </div>
         </div>
@@ -131,41 +126,90 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
       {/* Main Header */}
       <header className="navbar-header" style={{
         boxShadow: scrolled ? '0 10px 25px -5px rgba(0,0,0,0.06)' : 'none',
+        background: '#ffffff',
+        borderBottom: '1px solid var(--border-light)'
       }}>
-        <div className="container navbar-container">
-          {/* Logo */}
+        <div className="container navbar-container" style={{ height: '76px' }}>
+          {/* Logo Matching Reference Header */}
           <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="brand-logo" style={{ textDecoration: 'none' }}>
-            <div className="brand-logo-icon">
-              <Snowflake size={24} color="#ffffff" />
-            </div>
-            <div>
-              <div className="brand-title">THILHARA</div>
-              <div className="brand-subtitle">Cooling Solution Partner</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
+              <div style={{
+                width: '38px',
+                height: '38px',
+                borderRadius: '8px',
+                background: 'linear-gradient(135deg, #3F4096 0%, #EE3338 100%)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#fff'
+              }}>
+                <Snowflake size={22} color="#ffffff" />
+              </div>
+              <div style={{
+                fontSize: '1.65rem',
+                fontWeight: 900,
+                letterSpacing: '-0.03em',
+                color: '#0f172a',
+                fontFamily: 'var(--font-heading)',
+                lineHeight: 1
+              }}>
+                THILHARA
+              </div>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <ul className="nav-links">
+          <ul className="nav-links" style={{ gap: '2rem' }}>
             {navItems.map((item) => (
               <li key={item.id}>
                 <button
                   onClick={() => handleNavClick(item)}
                   className={`nav-link ${isItemActive(item) ? 'active' : ''}`}
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.3rem',
+                    fontSize: '0.94rem',
+                    fontWeight: 600
+                  }}
                 >
-                  {item.label}
+                  <span>{item.label}</span>
+                  {item.hasDropdown && <ChevronDown size={14} style={{ opacity: 0.7 }} />}
                 </button>
               </li>
             ))}
           </ul>
 
           {/* Action CTAs */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+            <Link
+              to="/products"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#475569',
+                padding: '0.4rem',
+                borderRadius: '50%',
+                transition: 'color 0.2s'
+              }}
+              aria-label="Search Catalog"
+            >
+              <Search size={20} />
+            </Link>
+
             <button
               onClick={onOpenQuote}
               className="btn-primary btn-sm"
+              style={{
+                borderRadius: 'var(--radius-full)',
+                padding: '0.65rem 1.45rem',
+                fontSize: '0.88rem',
+                fontWeight: 700
+              }}
             >
               <span>Get a Quote</span>
-              <ArrowRight size={15} />
+              <ArrowRight size={14} />
             </button>
 
             {/* Mobile Menu Button */}
@@ -228,6 +272,9 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
         @media (max-width: 900px) {
           .mobile-toggle {
             display: inline-flex !important;
+          }
+          .top-banner-center {
+            display: none !important;
           }
         }
       `}</style>
