@@ -248,14 +248,20 @@ export default function Hero({ onOpenQuote }) {
               </button>
             </div>
 
-            {/* 4 Trust Features Row - Direct Minimal Strip Aligned Below CTAs */}
+            {/* 4 Trust Features Row - White Glassmorphism Card */}
             <div
               style={{
+                background: 'rgba(255, 255, 255, 0.82)',
+                backdropFilter: 'blur(16px)',
+                WebkitBackdropFilter: 'blur(16px)',
+                borderRadius: '16px',
+                border: '1px solid rgba(255, 255, 255, 0.95)',
+                boxShadow: '0 10px 30px -5px rgba(15, 23, 42, 0.07), 0 2px 8px rgba(0, 0, 0, 0.03)',
+                padding: '1.25rem 1.5rem',
                 display: 'grid',
                 gridTemplateColumns: 'repeat(4, 1fr)',
-                gap: '1rem',
-                paddingTop: '1.75rem',
-                borderTop: '1px solid rgba(226, 232, 240, 0.8)'
+                gap: '1.25rem',
+                alignItems: 'center'
               }}
               className="hero-trust-grid"
             >
@@ -267,19 +273,26 @@ export default function Hero({ onOpenQuote }) {
                     style={{
                       display: 'flex',
                       alignItems: 'flex-start',
-                      gap: '0.65rem'
+                      gap: '0.75rem'
                     }}
                   >
                     <div style={{
-                      color: '#1e293b',
+                      width: '36px',
+                      height: '36px',
+                      borderRadius: '10px',
+                      background: 'rgba(63, 64, 150, 0.08)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: 'var(--primary-blue)',
                       flexShrink: 0,
                       marginTop: '2px'
                     }}>
-                      <IconComponent size={20} strokeWidth={1.8} />
+                      <IconComponent size={18} strokeWidth={2} />
                     </div>
                     <div>
                       <div style={{
-                        fontSize: '0.84rem',
+                        fontSize: '0.85rem',
                         fontWeight: 700,
                         color: '#0f172a',
                         lineHeight: 1.25,
