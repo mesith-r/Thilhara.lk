@@ -6,19 +6,19 @@ const slides = [
   {
     line1: "Powerful Cooling.",
     line2: "Better Every Day.",
-    description: "Discover the latest residential and commercial cooling systems engineered to elevate comfort, optimize energy, and power your world.",
+    description: "Discover commercial refrigeration systems, premium air conditioners, and genuine copper hardware engineered to safeguard your cold chain.",
     highlight: "Trusted Sri Lankan Cooling Partner Since 1998"
   },
   {
     line1: "The Future of Cool,",
     line2: "Under One Roof.",
-    description: "Smart inverter climate technology and genuine OEM refrigeration hardware from world-renowned engineering partners.",
+    description: "Smart inverter climate technology, commercial refrigeration, and genuine OEM spare parts from world-renowned engineering partners.",
     highlight: "100% Genuine Certified Hardware & Spare Parts"
   },
   {
     line1: "Cooling Experts,",
     line2: "Dedicated World.",
-    description: "Over 25 years of thermodynamic engineering leadership. Powering industrial cold storage, commercial towers, and homes across Sri Lanka.",
+    description: "Over 25 years of thermodynamic leadership. Powering cold storage, industrial refrigeration, and climate comfort across Sri Lanka.",
     highlight: "Over 1,650+ Corporate Facilities Powered"
   }
 ];
@@ -95,7 +95,7 @@ export default function Hero({ onOpenQuote }) {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 1.25fr)',
+            gridTemplateColumns: 'minmax(0, 0.95fr) minmax(0, 1.35fr)',
             gap: '2.5rem',
             alignItems: 'center'
           }}
@@ -303,14 +303,16 @@ export default function Hero({ onOpenQuote }) {
           >
             <img
               src="/hero-cooling-showcase.png"
-              alt="Thilhara Air Conditioning & Climate Ecosystem"
+              alt="Thilhara Air Conditioning, Commercial Refrigeration & Genuine Copper Fittings Showcase"
               style={{
                 width: '100%',
-                maxWidth: '680px',
+                maxWidth: '820px',
                 height: 'auto',
                 display: 'block',
                 objectFit: 'contain',
-                filter: 'drop-shadow(0 20px 30px rgba(0, 0, 0, 0.04))',
+                transform: 'scale(1.05)',
+                transformOrigin: 'center right',
+                filter: 'drop-shadow(0 20px 35px rgba(0, 0, 0, 0.05))',
                 pointerEvents: 'none'
               }}
             />
