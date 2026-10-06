@@ -1,0 +1,24 @@
+# Category: Cold Room Accessories
+[PRODUCT]
+Name: Heavy Duty Cold Room Safety Door Latch
+Image: coldroom-door-latch.jpg
+Brand: Fermod
+Model: 921-HP
+Description: Ergonomic heavy-duty cold room latch with inside glowing safety push-release handle to prevent accidental entrapment inside walk-in freezers.
+Specs:
+  Material: High Pressure Die-Cast Chrome Finish
+  Safety Release: Internal Glow-in-the-dark Push Rod
+  Temperature Range: -40°C to +60°C
+InStock: Yes
+
+[PRODUCT]
+Name: Cold Room PVC Strip Curtain Strip (200mm x 2mm)
+Image: pvc-strip-curtain.jpg
+Brand: Thilhara Polar
+Model: PVC-POLAR-200
+Description: Polar grade flexible clear PVC strip roll designed to prevent thermal loss in walk-in freezers, cold stores, and blast chillers.
+Specs:
+  Width: 200 mm
+  Thickness: 2 mm
+  Temperature Rating: Down to -35°C
+InStock: Yes

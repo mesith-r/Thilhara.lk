@@ -1,0 +1,23 @@
+# Category: Copper Fitting
+[PRODUCT]
+Name: 90 Degree Copper Elbow 1/2 inch (Short & Long Radius)
+Image: copper-elbow-half-inch.jpg
+Brand: Mueller
+Model: ELB-90-12
+Description: Seamless deoxidized high residual phosphorus copper solder joint 90-degree bend for high pressure HVAC and refrigeration pipe lines.
+Specs:
+  Nominal Size: 1/2 in ODS
+  Standard: ASME B16.22 / EN 1254-1
+  Material: UNS C12200 Pure Copper
+InStock: Yes
+
+[PRODUCT]
+Name: Refrigeration Copper Equal Tee 5/8 inch
+Image: copper-tee-5-8.jpg
+Brand: Mueller
+Model: TEE-58
+Description: High quality seamless brazing copper equal tee for balanced refrigerant liquid and suction line distribution.
+Specs:
+  Nominal Size: 5/8 in ODS (All Ends)
+  Operating Pressure: Up to 50 bar
+InStock: Yes

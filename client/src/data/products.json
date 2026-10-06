@@ -1,0 +1,490 @@
+[
+  {
+    "id": 1,
+    "name": "Universal Wall Mounting AC Outdoor Bracket",
+    "slug": "universal-wall-mounting-ac-outdoor-bracket-1",
+    "categoryGroup": "Air Condition Accessories",
+    "categoryName": "Air Condition Accessories",
+    "categorySlug": "air-condition-accessories",
+    "brand": "Thilhara Heavy Duty",
+    "model": "BRK-450",
+    "description": "Heavy-gauge galvanized steel bracket with anti-vibration rubber dampers designed for 9,000 to 24,000 BTU outdoor condenser units.",
+    "specs": {
+      "Material": "Powder Coated Galvanized Steel",
+      "Max Load Capacity": "180 kg",
+      "Compatibility": "9000 - 24000 BTU",
+      "Vibration Dampers": "4x Heavy Duty Rubber Isolators"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/air-condition-accessories/ac-outdoor-bracket.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Flexible AC Drain Hose 16mm",
+    "slug": "flexible-ac-drain-hose-16mm-2",
+    "categoryGroup": "Air Condition Accessories",
+    "categoryName": "Air Condition Accessories",
+    "categorySlug": "air-condition-accessories",
+    "brand": "Thilhara",
+    "model": "DH-16MM",
+    "description": "UV-resistant corrugated PVC flexible condensation water drain pipe for residential and commercial split air conditioning systems.",
+    "specs": {
+      "Internal Diameter": "16 mm",
+      "Material": "Double-layer UV Polyethylene"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/air-condition-accessories/ac-drain-hose.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Heavy Duty Cold Room Safety Door Latch",
+    "slug": "heavy-duty-cold-room-safety-door-latch-3",
+    "categoryGroup": "Cold Room Accessories",
+    "categoryName": "Cold Room Accessories",
+    "categorySlug": "cold-room-accessories",
+    "brand": "Fermod",
+    "model": "921-HP",
+    "description": "Ergonomic heavy-duty cold room latch with inside glowing safety push-release handle to prevent accidental entrapment inside walk-in freezers.",
+    "specs": {
+      "Material": "High Pressure Die-Cast Chrome Finish",
+      "Safety Release": "Internal Glow-in-the-dark Push Rod",
+      "Temperature Range": "-40°C to +60°C"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/cold-room-accessories/coldroom-door-latch.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cold Room PVC Strip Curtain Strip (200mm x 2mm)",
+    "slug": "cold-room-pvc-strip-curtain-strip-200mm-x-2mm-4",
+    "categoryGroup": "Cold Room Accessories",
+    "categoryName": "Cold Room Accessories",
+    "categorySlug": "cold-room-accessories",
+    "brand": "Thilhara Polar",
+    "model": "PVC-POLAR-200",
+    "description": "Polar grade flexible clear PVC strip roll designed to prevent thermal loss in walk-in freezers, cold stores, and blast chillers.",
+    "specs": {
+      "Width": "200 mm",
+      "Thickness": "2 mm",
+      "Temperature Rating": "Down to -35°C"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/cold-room-accessories/pvc-strip-curtain.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Polyurethane (PUF) Insulated Cold Room Wall Panel 100mm",
+    "slug": "polyurethane-puf-insulated-cold-room-wall-panel-100mm-5",
+    "categoryGroup": "Coldroom Panel And Door",
+    "categoryName": "Coldroom Panel And Door",
+    "categorySlug": "coldroom-panel-and-door",
+    "brand": "Thilhara Thermal",
+    "model": "PUF-100-CAM",
+    "description": "High-density CFC-free polyurethane foam insulated sandwich panels equipped with tongue-and-groove cam-lock interlocking mechanism for rapid airtight installation.",
+    "specs": {
+      "Panel Thickness": "100 mm",
+      "Foam Density": "40-42 kg/m³",
+      "Facing Sheet": "0.5mm Pre-painted Galvanized Iron (PPGI)",
+      "Thermal Conductivity": "0.022 W/m.K"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/coldroom-panel-and-door/puf-panel-100mm.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Heavy Duty Hinged Cold Room Door with Heater",
+    "slug": "heavy-duty-hinged-cold-room-door-with-heater-6",
+    "categoryGroup": "Coldroom Panel And Door",
+    "categoryName": "Coldroom Panel And Door",
+    "categorySlug": "coldroom-panel-and-door",
+    "brand": "Thilhara",
+    "model": "CRD-H100",
+    "description": "Fully insulated hinged cold room door with perimeter heating cable to eliminate frost formation around seals in sub-zero freezer rooms.",
+    "specs": {
+      "Door Leaf Thickness": "100 mm",
+      "Frame Heating": "230V Perimeter Resistance Wire",
+      "Clear Opening": "900 mm x 1900 mm"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/coldroom-panel-and-door/coldroom-hinged-door.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Vertical Liquid Refrigerant Receiver 4.5L",
+    "slug": "vertical-liquid-refrigerant-receiver-45l-7",
+    "categoryGroup": "Reciever",
+    "categoryName": "Reciever",
+    "categorySlug": "reciever",
+    "brand": "Castel",
+    "model": "7810/3",
+    "description": "Steel welded vertical liquid receiver with dual rotalock valve connections and fusible plug port for refrigeration condensing units.",
+    "specs": {
+      "Volume Capacity": "4.5 Liters",
+      "Inlet Connection": "1/2 in ODS Rotalock",
+      "Outlet Connection": "3/8 in ODS Rotalock",
+      "Max Working Pressure": "33 bar"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/reciever/liquid-receiver-4-5l.jpg"
+  },
+  {
+    "id": 8,
+    "name": "90 Degree Copper Elbow 1/2 inch (Short & Long Radius)",
+    "slug": "90-degree-copper-elbow-12-inch-short-long-radius-8",
+    "categoryGroup": "Copper Fitting",
+    "categoryName": "Copper Fitting",
+    "categorySlug": "copper-fitting",
+    "brand": "Mueller",
+    "model": "ELB-90-12",
+    "description": "Seamless deoxidized high residual phosphorus copper solder joint 90-degree bend for high pressure HVAC and refrigeration pipe lines.",
+    "specs": {
+      "Nominal Size": "1/2 in ODS",
+      "Standard": "ASME B16.22 / EN 1254-1",
+      "Material": "UNS C12200 Pure Copper"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/copper-fitting/copper-elbow-half-inch.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Refrigeration Copper Equal Tee 5/8 inch",
+    "slug": "refrigeration-copper-equal-tee-58-inch-9",
+    "categoryGroup": "Copper Fitting",
+    "categoryName": "Copper Fitting",
+    "categorySlug": "copper-fitting",
+    "brand": "Mueller",
+    "model": "TEE-58",
+    "description": "High quality seamless brazing copper equal tee for balanced refrigerant liquid and suction line distribution.",
+    "specs": {
+      "Nominal Size": "5/8 in ODS (All Ends)",
+      "Operating Pressure": "Up to 50 bar"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/copper-fitting/copper-tee-5-8.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Danfoss DCL 163 Solid Core Liquid Line Filter Drier",
+    "slug": "danfoss-dcl-163-solid-core-liquid-line-filter-drier-10",
+    "categoryGroup": "Filter Driers",
+    "categoryName": "Filter Driers",
+    "categorySlug": "filter-driers",
+    "brand": "Danfoss",
+    "model": "DCL 163",
+    "description": "High moisture absorption solid core liquid line filter drier for CFC, HCFC, and HFC refrigerants. Exceptional acid and moisture capture.",
+    "specs": {
+      "Connection": "3/8 in Flare (Male)",
+      "Core Composition": "80% Molecular Sieve / 20% Activated Alumina",
+      "Max Pressure": "46 bar",
+      "Refrigerant": "R134a, R404A, R407C, R410A, R507"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/filter-driers/danfoss-dcl-163.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Alco BFK Bi-Flow Heat Pump Filter Drier",
+    "slug": "alco-bfk-bi-flow-heat-pump-filter-drier-11",
+    "categoryGroup": "Filter Driers",
+    "categoryName": "Filter Driers",
+    "categorySlug": "filter-driers",
+    "brand": "Alco Controls",
+    "model": "BFK-083S",
+    "description": "Bi-directional solid core filter drier with internal check valves engineered for reversible heat pump and air conditioning systems.",
+    "specs": {
+      "Connection": "3/8 in ODS Solder",
+      "Volume": "130 cm³"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/filter-driers/alco-bfk-drier.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Helical Mechanical Oil Separator 1/2 inch",
+    "slug": "helical-mechanical-oil-separator-12-inch-12",
+    "categoryGroup": "Oil Separators",
+    "categoryName": "Oil Separators",
+    "categorySlug": "oil-separators",
+    "brand": "Castel",
+    "model": "5520/4",
+    "description": "High-efficiency centrifugal helical oil separator designed to extract compressor lubricating oil from discharge gas and return it safely to the compressor sump.",
+    "specs": {
+      "Connections": "1/2 in ODS",
+      "Oil Return Connection": "1/4 in Flare",
+      "Max Working Pressure": "45 bar"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/oil-separators/oil-separator-helical.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Shaded Pole Condenser Fan Motor 16W",
+    "slug": "shaded-pole-condenser-fan-motor-16w-13",
+    "categoryGroup": "Axial Fan Motor",
+    "categoryName": "Axial Fan Motor",
+    "categorySlug": "axial-fan-motor",
+    "brand": "EBM-Papst",
+    "model": "M4Q045-CA03-04",
+    "description": "Maintenance-free shaded pole motor for commercial evaporators and refrigeration condenser units. Features multi-mount brackets.",
+    "specs": {
+      "Output Power": "16 Watt",
+      "Voltage": "230V / 50Hz",
+      "Speed": "1300 RPM",
+      "Protection Class": "IP42"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/axial-fan-motor/fan-motor-16w.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Copeland Scroll Commercial Inverter Compressor",
+    "slug": "copeland-scroll-commercial-inverter-compressor-14",
+    "categoryGroup": "Compressor",
+    "categoryName": "Compressor",
+    "categorySlug": "compressor",
+    "brand": "Copeland",
+    "model": "ZP72KCE-TFD",
+    "description": "World-renowned Copeland Scroll reliability engineered for commercial refrigeration and climate cooling. High energy efficiency and low sound footprint.",
+    "specs": {
+      "Displacement": "72,000 BTU/hr",
+      "Power Supply": "380-420V / 3Ph / 50Hz",
+      "Refrigerant": "R410A / R407C / R134a",
+      "Motor Protection": "Internal Thermal Protection"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/compressor/copeland-scroll.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Embraco Aspera Commercial Hermetic Compressor",
+    "slug": "embraco-aspera-commercial-hermetic-compressor-15",
+    "categoryGroup": "Compressor",
+    "categoryName": "Compressor",
+    "categorySlug": "compressor",
+    "brand": "Embraco",
+    "model": "NEK6210GK",
+    "description": "Premium high back pressure hermetic reciprocating compressor for commercial beverage coolers, display cases, and ice machines.",
+    "specs": {
+      "Horsepower": "1/2 HP",
+      "Refrigerant": "R404A / R507",
+      "Displacement": "8.78 cm³",
+      "Power": "220-240V / 50Hz"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/compressor/embraco-aspera.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Dual Stage Rotary Vane Vacuum Pump 2-Stage 4 CFM",
+    "slug": "dual-stage-rotary-vane-vacuum-pump-2-stage-4-cfm-16",
+    "categoryGroup": "Vacum Pump",
+    "categoryName": "Vacum Pump",
+    "categorySlug": "vacum-pump",
+    "brand": "Value",
+    "model": "VE-245N",
+    "description": "Heavy duty dual-stage rotary vane vacuum pump delivering deep evacuation down to 15 microns. Integrated forced oil lubrication system.",
+    "specs": {
+      "Flow Rate": "4.0 CFM (114 L/min)",
+      "Ultimate Vacuum": "15 Microns",
+      "Motor Power": "1/3 HP",
+      "Oil Capacity": "330 ml"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/vacum-pump/vacuum-pump-2stage.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Danfoss TEV Thermostatic Expansion Valve T2/TE2",
+    "slug": "danfoss-tev-thermostatic-expansion-valve-t2te2-17",
+    "categoryGroup": "Valves",
+    "categoryName": "Valves",
+    "categorySlug": "valves",
+    "brand": "Danfoss",
+    "model": "068Z3400",
+    "description": "World standard brass thermostatic expansion valve with interchangeable orifice assemblies for precise superheat control in cold rooms.",
+    "specs": {
+      "Refrigerant": "R404A / R507",
+      "Inlet": "3/8 in Flare",
+      "Outlet": "1/2 in Flare",
+      "Equalization": "Internal"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/valves/danfoss-tev-valve.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Refrigeration Ball Valve with Access Port 5/8 inch",
+    "slug": "refrigeration-ball-valve-with-access-port-58-inch-18",
+    "categoryGroup": "Valves",
+    "categoryName": "Valves",
+    "categorySlug": "valves",
+    "brand": "Castel",
+    "model": "6570/5",
+    "description": "Bi-directional full-bore brass ball valve with integrated Schrader service access port for leak-tight isolation during servicing.",
+    "specs": {
+      "Connection": "5/8 in ODS",
+      "Working Pressure": "45 bar"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/valves/ball-valve-5-8.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Danfoss KP15 Dual Low and High Pressure Switch",
+    "slug": "danfoss-kp15-dual-low-and-high-pressure-switch-19",
+    "categoryGroup": "Pressure Controls",
+    "categoryName": "Pressure Controls",
+    "categorySlug": "pressure-controls",
+    "brand": "Danfoss",
+    "model": "060-126466",
+    "description": "Industry benchmark dual pressure control providing comprehensive low-pressure cycling and high-pressure safety cutout for compressors.",
+    "specs": {
+      "Low Pressure Range": "-0.2 to 7.5 bar",
+      "High Pressure Range": "8 to 32 bar",
+      "Reset": "Auto LP / Manual HP",
+      "Contact System": "SPDT"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/pressure-controls/danfoss-kp15.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Moisture Liquid Indicator Sight Glass 3/8 Flare",
+    "slug": "moisture-liquid-indicator-sight-glass-38-flare-20",
+    "categoryGroup": "Sight Glasses",
+    "categoryName": "Sight Glasses",
+    "categorySlug": "sight-glasses",
+    "brand": "Danfoss",
+    "model": "SGI 10",
+    "description": "High visibility brass sight glass with sensitive chemical color indicator ring showing refrigerant moisture level (Green = Dry, Yellow = Wet).",
+    "specs": {
+      "Connection": "3/8 in Flare Male-Female",
+      "Maximum Pressure": "35 bar",
+      "Indicator Type": "Dual Color Moisture Ring"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/sight-glasses/sight-glass-3-8.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Dual Run Capacitor 45+5 uF 450V AC",
+    "slug": "dual-run-capacitor-455-uf-450v-ac-21",
+    "categoryGroup": "Capacitors",
+    "categoryName": "Capacitors",
+    "categorySlug": "capacitors",
+    "brand": "Epcos / TDK",
+    "model": "CAP-45-5-450",
+    "description": "Round aluminum motor run capacitor for compressor and fan motor starting in residential split and packaged air conditioning units.",
+    "specs": {
+      "Capacitance": "45 uF + 5 uF",
+      "Rated Voltage": "450V AC 50/60Hz",
+      "Tolerance": "±5%",
+      "Safety Rating": "10,000 AFC Anti-Explosion"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/capacitors/capacitor-45-5.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Refco Digital Smart Manifold Gauge Set 4-Way",
+    "slug": "refco-digital-smart-manifold-gauge-set-4-way-22",
+    "categoryGroup": "Tools and Equipment",
+    "categoryName": "Tools and Equipment",
+    "categorySlug": "tools-and-equipment",
+    "brand": "Refco Swiss",
+    "model": "REFMATE-4",
+    "description": "Swiss-crafted 4-way wireless digital manifold system featuring high-precision pressure transducers, micron vacuum sensor, and temperature clamps.",
+    "specs": {
+      "Display": "4.3 in High-Res Color Screen",
+      "Pressure Range": "-1 to 60 bar",
+      "Accuracy": "Class 0.5",
+      "Wireless Range": "Up to 100 meters Bluetooth"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/tools-and-equipment/refco-digital-manifold.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Heavy Duty Eccentric Cone Flaring Tool Set",
+    "slug": "heavy-duty-eccentric-cone-flaring-tool-set-23",
+    "categoryGroup": "Tools and Equipment",
+    "categoryName": "Tools and Equipment",
+    "categorySlug": "tools-and-equipment",
+    "brand": "Value",
+    "model": "VFT-808-MIS",
+    "description": "Precision eccentric flaring tool with ratchet clutch mechanism for producing clean 45-degree gas-tight flares on copper tubing.",
+    "specs": {
+      "Tube Sizes": "1/4, 5/16, 3/8, 1/2, 5/8, 3/4 inch",
+      "Material": "Hardened Alloy Steel"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/tools-and-equipment/flaring-tool-set.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Digital Cold Room Temperature Display Thermometer",
+    "slug": "digital-cold-room-temperature-display-thermometer-24",
+    "categoryGroup": "Other Accessories",
+    "categoryName": "Other Accessories",
+    "categorySlug": "other-accessories",
+    "brand": "Eliwell",
+    "model": "T-PANEL-LED",
+    "description": "Flush panel-mounted bright blue LED digital thermometer with waterproof NTC temperature probe for chillers and cold storage display counters.",
+    "specs": {
+      "Measurement Range": "-50°C to +99°C",
+      "Display": "3-Digit Bright Blue LED",
+      "Probe Length": "2.0 Meters Waterproof",
+      "Power Supply": "230V AC"
+    },
+    "inStock": true,
+    "rating": 5.0,
+    "reviewsCount": 12,
+    "imageUrl": "/products/other-accessories/digital-panel-thermometer.jpg"
+  }
+]

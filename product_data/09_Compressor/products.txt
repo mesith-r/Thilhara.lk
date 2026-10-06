@@ -1,0 +1,26 @@
+# Category: Compressor
+[PRODUCT]
+Name: Copeland Scroll Commercial Inverter Compressor
+Image: copeland-scroll.jpg
+Brand: Copeland
+Model: ZP72KCE-TFD
+Description: World-renowned Copeland Scroll reliability engineered for commercial refrigeration and climate cooling. High energy efficiency and low sound footprint.
+Specs:
+  Displacement: 72,000 BTU/hr
+  Power Supply: 380-420V / 3Ph / 50Hz
+  Refrigerant: R410A / R407C / R134a
+  Motor Protection: Internal Thermal Protection
+InStock: Yes
+
+[PRODUCT]
+Name: Embraco Aspera Commercial Hermetic Compressor
+Image: embraco-aspera.jpg
+Brand: Embraco
+Model: NEK6210GK
+Description: Premium high back pressure hermetic reciprocating compressor for commercial beverage coolers, display cases, and ice machines.
+Specs:
+  Horsepower: 1/2 HP
+  Refrigerant: R404A / R507
+  Displacement: 8.78 cm³
+  Power: 220-240V / 50Hz
+InStock: Yes

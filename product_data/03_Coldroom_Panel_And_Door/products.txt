@@ -1,0 +1,25 @@
+# Category: Coldroom panel & door
+[PRODUCT]
+Name: Polyurethane (PUF) Insulated Cold Room Wall Panel 100mm
+Image: puf-panel-100mm.jpg
+Brand: Thilhara Thermal
+Model: PUF-100-CAM
+Description: High-density CFC-free polyurethane foam insulated sandwich panels equipped with tongue-and-groove cam-lock interlocking mechanism for rapid airtight installation.
+Specs:
+  Panel Thickness: 100 mm
+  Foam Density: 40-42 kg/m³
+  Facing Sheet: 0.5mm Pre-painted Galvanized Iron (PPGI)
+  Thermal Conductivity: 0.022 W/m.K
+InStock: Yes
+
+[PRODUCT]
+Name: Heavy Duty Hinged Cold Room Door with Heater
+Image: coldroom-hinged-door.jpg
+Brand: Thilhara
+Model: CRD-H100
+Description: Fully insulated hinged cold room door with perimeter heating cable to eliminate frost formation around seals in sub-zero freezer rooms.
+Specs:
+  Door Leaf Thickness: 100 mm
+  Frame Heating: 230V Perimeter Resistance Wire
+  Clear Opening: 900 mm x 1900 mm
+InStock: Yes

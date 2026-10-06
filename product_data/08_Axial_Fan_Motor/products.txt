@@ -1,0 +1,13 @@
+# Category: Axial Fan Motor
+[PRODUCT]
+Name: Shaded Pole Condenser Fan Motor 16W
+Image: fan-motor-16w.jpg
+Brand: EBM-Papst
+Model: M4Q045-CA03-04
+Description: Maintenance-free shaded pole motor for commercial evaporators and refrigeration condenser units. Features multi-mount brackets.
+Specs:
+  Output Power: 16 Watt
+  Voltage: 230V / 50Hz
+  Speed: 1300 RPM
+  Protection Class: IP42
+InStock: Yes

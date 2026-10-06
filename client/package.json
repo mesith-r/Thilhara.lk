@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync-products": "python ../scripts/sync_products.py"
   },
   "dependencies": {
     "lucide-react": "^1.52.0",

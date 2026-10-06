@@ -1,0 +1,13 @@
+# Category: Pressure Controls
+[PRODUCT]
+Name: Danfoss KP15 Dual Low and High Pressure Switch
+Image: danfoss-kp15.jpg
+Brand: Danfoss
+Model: 060-126466
+Description: Industry benchmark dual pressure control providing comprehensive low-pressure cycling and high-pressure safety cutout for compressors.
+Specs:
+  Low Pressure Range: -0.2 to 7.5 bar
+  High Pressure Range: 8 to 32 bar
+  Reset: Auto LP / Manual HP
+  Contact System: SPDT
+InStock: Yes

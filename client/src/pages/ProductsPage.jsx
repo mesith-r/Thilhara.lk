@@ -174,36 +174,30 @@ const allProductsData = [
   }
 ];
 
-const categoryHierarchy = [
-  { name: "All Categories", slug: "all", count: 8 },
-  {
-    name: "Cold Room Accessories",
-    slug: "cold-room",
-    count: 2,
-    subcategories: ["Coldroom Panels & Doors", "Receivers", "Copper Fittings", "Filter Driers", "Axial Fan Motors", "Evaporators"]
-  },
-  {
-    name: "Compressors & Motors",
-    slug: "compressors",
-    count: 2,
-    subcategories: ["Scroll Compressors", "Hermetic Compressors", "Rotary Motors"]
-  },
-  {
-    name: "Refrigerant Valves & Controls",
-    slug: "valves-fittings",
-    count: 2,
-    subcategories: ["Thermostatic Expansion Valves", "Electronic Controllers", "Sight Glasses", "Solenoid Valves"]
-  },
-  {
-    name: "Tools & Diagnostic Equipment",
-    slug: "tools-equipment",
-    count: 2,
-    subcategories: ["Digital Manifold Gauges", "Vacuum Pumps", "Leak Detectors", "Flaring Tools"]
-  }
+import syncedProductsData from '../data/products.json';
+
+const allCategoriesList = [
+  { name: "All Categories", slug: "all" },
+  { name: "Air Condition Accessories", slug: "air-condition-accessories" },
+  { name: "Cold Room Accessories", slug: "cold-room-accessories" },
+  { name: "Coldroom panel & door", slug: "coldroom-panel-and-door" },
+  { name: "Reciever", slug: "reciever" },
+  { name: "Copper Fitting", slug: "copper-fitting" },
+  { name: "Filter Driers", slug: "filter-driers" },
+  { name: "Oil Separators", slug: "oil-separators" },
+  { name: "Axial Fan Motor", slug: "axial-fan-motor" },
+  { name: "Compressor", slug: "compressor" },
+  { name: "Vacum Pump", slug: "vacum-pump" },
+  { name: "Valves", slug: "valves" },
+  { name: "Pressure Controls", slug: "pressure-controls" },
+  { name: "Sight Glasses", slug: "sight-glasses" },
+  { name: "Capacitors", slug: "capacitors" },
+  { name: "Tools and Equipment", slug: "tools-and-equipment" },
+  { name: "Other Accessories", slug: "other-accessories" }
 ];
 
 export default function ProductsPage({ onOpenQuote }) {
-  const [products, setProducts] = useState(allProductsData);
+  const [products, setProducts] = useState(syncedProductsData && syncedProductsData.length > 0 ? syncedProductsData : allProductsData);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -289,13 +283,20 @@ export default function ProductsPage({ onOpenQuote }) {
                 <h3 style={{ fontSize: '1.15rem', color: 'var(--text-main)', fontWeight: 800 }}>Categories</h3>
               </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-                {categoryHierarchy.map(cat => {
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                {allCategoriesList.map(cat => {
                   const isActive = selectedCategory === cat.slug;
+                  const catCount = cat.slug === 'all'
+                    ? products.length
+                    : products.filter(p => p.categorySlug === cat.slug || (p.categoryName && p.categoryName.toLowerCase().includes(cat.name.toLowerCase()))).length;
+
                   return (
-                    <div key={cat.slug} style={{ marginBottom: '0.5rem' }}>
+                    <div key={cat.slug}>
                       <button
-                        onClick={() => setSelectedCategory(cat.slug)}
+                        onClick={() => {
+                          setSelectedCategory(cat.slug);
+                          setSearchTerm('');
+                        }}
                         style={{
                           width: '100%',
                           display: 'flex',
@@ -303,7 +304,7 @@ export default function ProductsPage({ onOpenQuote }) {
                           alignItems: 'center',
                           padding: '0.65rem 0.85rem',
                           borderRadius: 'var(--radius-sm)',
-                          fontSize: '0.9rem',
+                          fontSize: '0.88rem',
                           fontWeight: isActive ? 800 : 600,
                           color: isActive ? 'var(--primary-blue)' : 'var(--text-body)',
                           background: isActive ? 'var(--primary-blue-light)' : 'transparent',
@@ -312,54 +313,27 @@ export default function ProductsPage({ onOpenQuote }) {
                           transition: 'all var(--transition-fast)'
                         }}
                       >
-                        <span>{cat.name}</span>
+                        <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: '0.5rem' }}>
+                          {cat.name}
+                        </span>
                         <span style={{
-                          fontSize: '0.75rem',
-                          padding: '0.15rem 0.5rem',
+                          fontSize: '0.72rem',
+                          padding: '0.12rem 0.45rem',
                           borderRadius: '10px',
                           background: isActive ? 'var(--primary-blue)' : '#f1f5f9',
                           color: isActive ? '#ffffff' : 'var(--text-muted)',
-                          fontWeight: 700
+                          fontWeight: 700,
+                          flexShrink: 0
                         }}>
-                          {cat.count}
+                          {catCount}
                         </span>
                       </button>
-
-                      {/* Subcategory items if present */}
-                      {cat.subcategories && (
-                        <div style={{ paddingLeft: '1rem', marginTop: '0.25rem', display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
-                          {cat.subcategories.map((sub, sIdx) => (
-                            <div
-                              key={sIdx}
-                              onClick={() => {
-                                setSelectedCategory(cat.slug);
-                                setSearchTerm(sub.split(' ')[0]);
-                              }}
-                              style={{
-                                fontSize: '0.8rem',
-                                color: 'var(--text-muted)',
-                                padding: '0.25rem 0.5rem',
-                                cursor: 'pointer',
-                                borderRadius: '4px',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '0.35rem'
-                              }}
-                              onMouseOver={e => e.currentTarget.style.color = 'var(--primary-blue)'}
-                              onMouseOut={e => e.currentTarget.style.color = 'var(--text-muted)'}
-                            >
-                              <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: '#cbd5e1' }} />
-                              <span>{sub}</span>
-                            </div>
-                          ))}
-                        </div>
-                      )}
                     </div>
-                  );
-                })}
-              </div>
+                );
+              })}
+            </div>
 
-              {/* Direct Assistance Box */}
+            {/* Direct Assistance Box */}
               <div style={{
                 marginTop: '2rem',
                 padding: '1.25rem',

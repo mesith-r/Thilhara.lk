@@ -1,0 +1,12 @@
+# Category: Oil Separators
+[PRODUCT]
+Name: Helical Mechanical Oil Separator 1/2 inch
+Image: oil-separator-helical.jpg
+Brand: Castel
+Model: 5520/4
+Description: High-efficiency centrifugal helical oil separator designed to extract compressor lubricating oil from discharge gas and return it safely to the compressor sump.
+Specs:
+  Connections: 1/2 in ODS
+  Oil Return Connection: 1/4 in Flare
+  Max Working Pressure: 45 bar
+InStock: Yes

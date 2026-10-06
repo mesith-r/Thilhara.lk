@@ -1,0 +1,24 @@
+# Category: Air Condition Accessories
+[PRODUCT]
+Name: Universal Wall Mounting AC Outdoor Bracket
+Image: ac-outdoor-bracket.jpg
+Brand: Thilhara Heavy Duty
+Model: BRK-450
+Description: Heavy-gauge galvanized steel bracket with anti-vibration rubber dampers designed for 9,000 to 24,000 BTU outdoor condenser units.
+Specs:
+  Material: Powder Coated Galvanized Steel
+  Max Load Capacity: 180 kg
+  Compatibility: 9000 - 24000 BTU
+  Vibration Dampers: 4x Heavy Duty Rubber Isolators
+InStock: Yes
+
+[PRODUCT]
+Name: Flexible AC Drain Hose 16mm
+Image: ac-drain-hose.jpg
+Brand: Thilhara
+Model: DH-16MM
+Description: UV-resistant corrugated PVC flexible condensation water drain pipe for residential and commercial split air conditioning systems.
+Specs:
+  Internal Diameter: 16 mm
+  Material: Double-layer UV Polyethylene
+InStock: Yes

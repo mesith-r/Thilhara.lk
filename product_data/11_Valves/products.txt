@@ -1,0 +1,24 @@
+# Category: Valves
+[PRODUCT]
+Name: Danfoss TEV Thermostatic Expansion Valve T2/TE2
+Image: danfoss-tev-valve.jpg
+Brand: Danfoss
+Model: 068Z3400
+Description: World standard brass thermostatic expansion valve with interchangeable orifice assemblies for precise superheat control in cold rooms.
+Specs:
+  Refrigerant: R404A / R507
+  Inlet: 3/8 in Flare
+  Outlet: 1/2 in Flare
+  Equalization: Internal
+InStock: Yes
+
+[PRODUCT]
+Name: Refrigeration Ball Valve with Access Port 5/8 inch
+Image: ball-valve-5-8.jpg
+Brand: Castel
+Model: 6570/5
+Description: Bi-directional full-bore brass ball valve with integrated Schrader service access port for leak-tight isolation during servicing.
+Specs:
+  Connection: 5/8 in ODS
+  Working Pressure: 45 bar
+InStock: Yes

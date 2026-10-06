@@ -1,0 +1,13 @@
+# Category: Other Accessories
+[PRODUCT]
+Name: Digital Cold Room Temperature Display Thermometer
+Image: digital-panel-thermometer.jpg
+Brand: Eliwell
+Model: T-PANEL-LED
+Description: Flush panel-mounted bright blue LED digital thermometer with waterproof NTC temperature probe for chillers and cold storage display counters.
+Specs:
+  Measurement Range: -50°C to +99°C
+  Display: 3-Digit Bright Blue LED
+  Probe Length: 2.0 Meters Waterproof
+  Power Supply: 230V AC
+InStock: Yes

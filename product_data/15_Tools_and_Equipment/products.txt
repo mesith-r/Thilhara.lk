@@ -1,0 +1,24 @@
+# Category: Tools and Equipment
+[PRODUCT]
+Name: Refco Digital Smart Manifold Gauge Set 4-Way
+Image: refco-digital-manifold.jpg
+Brand: Refco Swiss
+Model: REFMATE-4
+Description: Swiss-crafted 4-way wireless digital manifold system featuring high-precision pressure transducers, micron vacuum sensor, and temperature clamps.
+Specs:
+  Display: 4.3 in High-Res Color Screen
+  Pressure Range: -1 to 60 bar
+  Accuracy: Class 0.5
+  Wireless Range: Up to 100 meters Bluetooth
+InStock: Yes
+
+[PRODUCT]
+Name: Heavy Duty Eccentric Cone Flaring Tool Set
+Image: flaring-tool-set.jpg
+Brand: Value
+Model: VFT-808-MIS
+Description: Precision eccentric flaring tool with ratchet clutch mechanism for producing clean 45-degree gas-tight flares on copper tubing.
+Specs:
+  Tube Sizes: 1/4, 5/16, 3/8, 1/2, 5/8, 3/4 inch
+  Material: Hardened Alloy Steel
+InStock: Yes

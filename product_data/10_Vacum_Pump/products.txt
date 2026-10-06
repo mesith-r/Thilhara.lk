@@ -1,0 +1,13 @@
+# Category: Vacum Pump
+[PRODUCT]
+Name: Dual Stage Rotary Vane Vacuum Pump 2-Stage 4 CFM
+Image: vacuum-pump-2stage.jpg
+Brand: Value
+Model: VE-245N
+Description: Heavy duty dual-stage rotary vane vacuum pump delivering deep evacuation down to 15 microns. Integrated forced oil lubrication system.
+Specs:
+  Flow Rate: 4.0 CFM (114 L/min)
+  Ultimate Vacuum: 15 Microns
+  Motor Power: 1/3 HP
+  Oil Capacity: 330 ml
+InStock: Yes

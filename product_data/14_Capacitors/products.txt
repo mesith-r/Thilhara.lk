@@ -1,0 +1,13 @@
+# Category: Capacitors
+[PRODUCT]
+Name: Dual Run Capacitor 45+5 uF 450V AC
+Image: capacitor-45-5.jpg
+Brand: Epcos / TDK
+Model: CAP-45-5-450
+Description: Round aluminum motor run capacitor for compressor and fan motor starting in residential split and packaged air conditioning units.
+Specs:
+  Capacitance: 45 uF + 5 uF
+  Rated Voltage: 450V AC 50/60Hz
+  Tolerance: ±5%
+  Safety Rating: 10,000 AFC Anti-Explosion
+InStock: Yes

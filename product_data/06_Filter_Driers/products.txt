@@ -1,0 +1,24 @@
+# Category: Filter Driers
+[PRODUCT]
+Name: Danfoss DCL 163 Solid Core Liquid Line Filter Drier
+Image: danfoss-dcl-163.jpg
+Brand: Danfoss
+Model: DCL 163
+Description: High moisture absorption solid core liquid line filter drier for CFC, HCFC, and HFC refrigerants. Exceptional acid and moisture capture.
+Specs:
+  Connection: 3/8 in Flare (Male)
+  Core Composition: 80% Molecular Sieve / 20% Activated Alumina
+  Max Pressure: 46 bar
+  Refrigerant: R134a, R404A, R407C, R410A, R507
+InStock: Yes
+
+[PRODUCT]
+Name: Alco BFK Bi-Flow Heat Pump Filter Drier
+Image: alco-bfk-drier.jpg
+Brand: Alco Controls
+Model: BFK-083S
+Description: Bi-directional solid core filter drier with internal check valves engineered for reversible heat pump and air conditioning systems.
+Specs:
+  Connection: 3/8 in ODS Solder
+  Volume: 130 cm³
+InStock: Yes

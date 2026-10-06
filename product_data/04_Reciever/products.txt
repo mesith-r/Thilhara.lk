@@ -1,0 +1,13 @@
+# Category: Reciever
+[PRODUCT]
+Name: Vertical Liquid Refrigerant Receiver 4.5L
+Image: liquid-receiver-4-5l.jpg
+Brand: Castel
+Model: 7810/3
+Description: Steel welded vertical liquid receiver with dual rotalock valve connections and fusible plug port for refrigeration condensing units.
+Specs:
+  Volume Capacity: 4.5 Liters
+  Inlet Connection: 1/2 in ODS Rotalock
+  Outlet Connection: 3/8 in ODS Rotalock
+  Max Working Pressure: 33 bar
+InStock: Yes
