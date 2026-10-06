@@ -84,18 +84,26 @@ export default function Hero({ onOpenQuote }) {
       onMouseLeave={() => setIsPaused(false)}
       style={{
         position: 'relative',
-        background: '#ffffff',
-        paddingTop: '2.5rem',
-        paddingBottom: '2.5rem',
+        backgroundColor: '#f0f0ec',
+        backgroundImage: "url('/Hero.jpg')",
+        backgroundPosition: 'right center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        minHeight: '620px',
+        paddingTop: '3.75rem',
+        paddingBottom: '3.75rem',
+        display: 'flex',
+        alignItems: 'center',
         overflow: 'hidden',
-        borderBottom: '1px solid #f1f5f9'
+        borderBottom: '1px solid #e2e8f0'
       }}
+      className="hero-section-wrapper"
     >
-      <div className="container">
+      <div className="container" style={{ width: '100%', position: 'relative', zIndex: 2 }}>
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'minmax(0, 0.95fr) minmax(0, 1.35fr)',
+            gridTemplateColumns: 'minmax(0, 1.15fr) minmax(0, 0.85fr)',
             gap: '2.5rem',
             alignItems: 'center'
           }}
@@ -103,7 +111,7 @@ export default function Hero({ onOpenQuote }) {
         >
 
           {/* Left Column: Rotating Smooth Headline, Subtitle, CTAs & 4 Trust Features */}
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', zIndex: 2 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }} className="hero-text-content">
             
             {/* Smooth Animated Text Content */}
             <div
@@ -127,7 +135,8 @@ export default function Hero({ onOpenQuote }) {
                     fontWeight: 700,
                     padding: '0.35rem 0.85rem',
                     borderRadius: '50px',
-                    border: '1px solid rgba(238, 51, 56, 0.2)'
+                    border: '1px solid rgba(238, 51, 56, 0.2)',
+                    backdropFilter: 'blur(6px)'
                   }}
                 >
                   <Zap size={13} />
@@ -158,9 +167,10 @@ export default function Hero({ onOpenQuote }) {
                 style={{
                   fontSize: '1.08rem',
                   lineHeight: 1.62,
-                  color: '#475569',
+                  color: '#334155',
                   maxWidth: '520px',
-                  marginBottom: '1rem'
+                  marginBottom: '1rem',
+                  fontWeight: 500
                 }}
               >
                 {slide.description}
@@ -184,7 +194,7 @@ export default function Hero({ onOpenQuote }) {
                   aria-label={`Slide ${idx + 1}`}
                 />
               ))}
-              <span style={{ fontSize: '0.82rem', color: '#94a3b8', marginLeft: '0.4rem', fontWeight: 600 }}>
+              <span style={{ fontSize: '0.82rem', color: '#64748b', marginLeft: '0.4rem', fontWeight: 600 }}>
                 0{currentSlide + 1} / 0{slides.length}
               </span>
             </div>
@@ -221,9 +231,10 @@ export default function Hero({ onOpenQuote }) {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  background: '#f8fafc',
+                  background: 'rgba(255, 255, 255, 0.85)',
+                  backdropFilter: 'blur(8px)',
                   color: '#0f172a',
-                  border: '1.5px solid #e2e8f0',
+                  border: '1.5px solid rgba(203, 213, 225, 0.8)',
                   padding: '0.82rem 1.65rem',
                   borderRadius: '50px',
                   fontWeight: 600,
@@ -244,7 +255,7 @@ export default function Hero({ onOpenQuote }) {
                 gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '1rem',
                 paddingTop: '1.75rem',
-                borderTop: '1px solid #f1f5f9'
+                borderTop: '1px solid rgba(226, 232, 240, 0.8)'
               }}
               className="hero-trust-grid"
             >
@@ -278,7 +289,7 @@ export default function Hero({ onOpenQuote }) {
                       </div>
                       <div style={{
                         fontSize: '0.73rem',
-                        color: '#64748b',
+                        color: '#475569',
                         lineHeight: 1.3
                       }}>
                         {item.subtitle}
@@ -290,33 +301,15 @@ export default function Hero({ onOpenQuote }) {
             </div>
           </div>
 
-          {/* Right Column: 100% Truly Seamless Ecosystem Showcase */}
+          {/* Right Column: Natural Spacer so background image products remain fully visible */}
           <div
             style={{
-              position: 'relative',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              width: '100%',
-              userSelect: 'none'
+              minHeight: '480px',
+              width: '100%'
             }}
-          >
-            <img
-              src="/hero-cooling-showcase.png"
-              alt="Thilhara Air Conditioning, Commercial Refrigeration & Genuine Copper Fittings Showcase"
-              style={{
-                width: '100%',
-                maxWidth: '820px',
-                height: 'auto',
-                display: 'block',
-                objectFit: 'contain',
-                transform: 'scale(1.05)',
-                transformOrigin: 'center right',
-                filter: 'drop-shadow(0 20px 35px rgba(0, 0, 0, 0.05))',
-                pointerEvents: 'none'
-              }}
-            />
-          </div>
+            className="hero-image-spacer"
+            aria-hidden="true"
+          />
 
         </div>
       </div>
@@ -328,14 +321,26 @@ export default function Hero({ onOpenQuote }) {
           background: #343580 !important;
         }
         .hero-quote-pill-btn:hover {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
+          background: #ffffff !important;
+          border-color: #94a3b8 !important;
           transform: translateY(-1px);
         }
         @media (max-width: 1024px) {
+          .hero-section-wrapper {
+            background-position: 70% center !important;
+          }
           .hero-main-layout {
             grid-template-columns: 1fr !important;
-            gap: 2.5rem !important;
+            gap: 2rem !important;
+          }
+          .hero-text-content {
+            background: rgba(240, 240, 236, 0.88);
+            backdrop-filter: blur(8px);
+            padding: 2rem;
+            border-radius: 16px;
+          }
+          .hero-image-spacer {
+            display: none !important;
           }
           .hero-trust-grid {
             grid-template-columns: repeat(2, 1fr) !important;
