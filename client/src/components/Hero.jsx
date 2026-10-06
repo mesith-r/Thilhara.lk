@@ -6,20 +6,20 @@ const slides = [
   {
     line1: "Powerful Cooling.",
     line2: "Better Every Day.",
-    description: "Discover the latest commercial cooling systems and genuine refrigeration equipment designed to simplify your operations and power your world.",
+    description: "Discover the latest residential and commercial cooling systems engineered to elevate comfort, optimize energy, and power your world.",
     highlight: "Trusted Sri Lankan Cooling Partner Since 1998"
   },
   {
     line1: "The Future of Cool,",
     line2: "Under One Roof.",
-    description: "Enhance your cooling setup with top-quality accessories and genuine OEM compressors from Copeland, LG, Embraco & Refco Swiss.",
+    description: "Smart inverter climate technology and genuine OEM refrigeration hardware from world-renowned engineering partners.",
     highlight: "100% Genuine Certified Hardware & Spare Parts"
   },
   {
     line1: "Cooling Experts,",
     line2: "Dedicated World.",
-    description: "Transforming industrial cold storage, commercial facilities, and residential spaces across Sri Lanka with turnkey climate engineering.",
-    highlight: "Over 1,650+ Industrial Facilities Powered"
+    description: "Over 25 years of thermodynamic engineering leadership. Powering industrial cold storage, commercial towers, and homes across Sri Lanka.",
+    highlight: "Over 1,650+ Corporate Facilities Powered"
   }
 ];
 
@@ -95,7 +95,7 @@ export default function Hero({ onOpenQuote }) {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 1.15fr)',
+            gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 1.25fr)',
             gap: '2.5rem',
             alignItems: 'center'
           }}
@@ -103,9 +103,9 @@ export default function Hero({ onOpenQuote }) {
         >
 
           {/* Left Column: Rotating Smooth Headline, Subtitle, CTAs & 4 Trust Features */}
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', zIndex: 2 }}>
             
-            {/* Smooth Animated Text Content Container */}
+            {/* Smooth Animated Text Content */}
             <div
               style={{
                 opacity: isVisible ? 1 : 0,
@@ -290,36 +290,30 @@ export default function Hero({ onOpenQuote }) {
             </div>
           </div>
 
-          {/* Right Column: Open Studio Format - NO Card Frame, Seamless Product Desk Setup */}
+          {/* Right Column: 100% Truly Seamless Ecosystem Showcase */}
           <div
             style={{
               position: 'relative',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '100%'
+              width: '100%',
+              userSelect: 'none'
             }}
           >
-            <div
+            <img
+              src="/hero-cooling-showcase.png"
+              alt="Thilhara Air Conditioning & Climate Ecosystem"
               style={{
-                position: 'relative',
                 width: '100%',
-                background: 'transparent'
+                maxWidth: '680px',
+                height: 'auto',
+                display: 'block',
+                objectFit: 'contain',
+                filter: 'drop-shadow(0 20px 30px rgba(0, 0, 0, 0.04))',
+                pointerEvents: 'none'
               }}
-            >
-              <img
-                src="/hero-cooling-showcase.jpg"
-                alt="Thilhara Cooling Technology, Diagnostic Gauges and Precision Engineering Showcase"
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  display: 'block',
-                  objectFit: 'contain',
-                  filter: 'drop-shadow(0 15px 30px rgba(15, 23, 42, 0.06))',
-                  userSelect: 'none'
-                }}
-              />
-            </div>
+            />
           </div>
 
         </div>
