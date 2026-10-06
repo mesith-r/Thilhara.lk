@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Star, Quote, ChevronLeft, ChevronRight, Building } from 'lucide-react';
 
 const testimonials = [
@@ -63,10 +63,10 @@ export default function Testimonials() {
     <section id="reviews" className="section" style={{ background: 'var(--bg-secondary)' }}>
       <div className="container">
         <div className="section-header">
-          <span className="badge">Verified Client Testimonials</span>
+          <span className="badge">Client Testimonials</span>
           <h2 className="section-title">
-            Testimonials of Excellence from <br />
-            <span className="gradient-text">Sri Lanka's Corporate Leaders</span>
+            Testimonials of Excellence <br />
+            <span style={{ color: 'var(--primary-blue)' }}>From Sri Lanka's Industry Leaders</span>
           </h2>
           <p className="section-subtitle">
             Leading conglomerates, state institutions, and hospitality brands trust Thilhara for mission-critical cooling hardware.
@@ -75,28 +75,29 @@ export default function Testimonials() {
 
         {/* Carousel Showcase */}
         <div style={{ maxWidth: '850px', margin: '0 auto' }}>
-          <div className="glass-card" style={{
+          <div className="white-card" style={{
             padding: '3rem',
             position: 'relative',
-            background: 'linear-gradient(135deg, rgba(19, 34, 56, 0.9), rgba(11, 20, 36, 0.95))',
-            border: '1px solid rgba(0, 210, 255, 0.3)'
+            background: '#ffffff',
+            border: '2px solid rgba(63, 64, 150, 0.15)',
+            boxShadow: 'var(--shadow-xl)'
           }}>
-            <Quote size={48} color="rgba(0, 210, 255, 0.2)" style={{ position: 'absolute', top: '24px', right: '28px' }} />
+            <Quote size={54} color="var(--primary-blue-light)" style={{ position: 'absolute', top: '24px', right: '28px', opacity: 0.8 }} />
 
             {/* Star Rating */}
             <div style={{ display: 'flex', gap: '0.3rem', marginBottom: '1.5rem' }}>
               {[...Array(current.rating)].map((_, i) => (
-                <Star key={i} size={18} fill="#fbbf24" color="#fbbf24" />
+                <Star key={i} size={18} fill="#f59e0b" color="#f59e0b" />
               ))}
             </div>
 
             {/* Comment */}
             <p style={{
-              fontSize: '1.3rem',
-              lineHeight: 1.6,
-              color: '#ffffff',
+              fontSize: '1.25rem',
+              lineHeight: 1.7,
+              color: 'var(--text-main)',
               marginBottom: '2rem',
-              fontWeight: 400,
+              fontWeight: 500,
               fontStyle: 'italic'
             }}>
               "{current.comment}"
@@ -113,14 +114,14 @@ export default function Testimonials() {
               borderTop: '1px solid var(--border-light)'
             }}>
               <div>
-                <h4 style={{ fontSize: '1.2rem', marginBottom: '0.2rem', color: '#fff' }}>
+                <h4 style={{ fontSize: '1.2rem', marginBottom: '0.2rem', color: 'var(--text-main)' }}>
                   {current.name}
                 </h4>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-cyan)', fontSize: '0.9rem', fontWeight: 600 }}>
-                  <Building size={15} />
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--primary-blue)', fontSize: '0.92rem', fontWeight: 700 }}>
+                  <Building size={16} />
                   <span>{current.company}</span>
                 </div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
                   {current.role}
                 </div>
               </div>
@@ -130,16 +131,17 @@ export default function Testimonials() {
                 <button
                   onClick={prev}
                   style={{
-                    width: '42px',
-                    height: '42px',
+                    width: '44px',
+                    height: '44px',
                     borderRadius: '50%',
-                    background: 'rgba(255,255,255,0.06)',
-                    border: '1px solid var(--border-light)',
-                    color: '#fff',
+                    background: '#f8fafc',
+                    border: '1.5px solid var(--border-light)',
+                    color: 'var(--text-main)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    transition: 'all 0.2s'
+                    transition: 'all 0.2s',
+                    boxShadow: 'var(--shadow-xs)'
                   }}
                   aria-label="Previous review"
                 >
@@ -148,16 +150,17 @@ export default function Testimonials() {
                 <button
                   onClick={next}
                   style={{
-                    width: '42px',
-                    height: '42px',
+                    width: '44px',
+                    height: '44px',
                     borderRadius: '50%',
-                    background: 'var(--accent-cyan)',
+                    background: 'var(--primary-blue)',
                     border: 'none',
-                    color: '#070d19',
+                    color: '#ffffff',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    transition: 'all 0.2s'
+                    transition: 'all 0.2s',
+                    boxShadow: '0 4px 14px rgba(63, 64, 150, 0.3)'
                   }}
                   aria-label="Next review"
                 >
@@ -168,16 +171,16 @@ export default function Testimonials() {
           </div>
 
           {/* Dots Indicator */}
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginTop: '1.5rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginTop: '1.75rem' }}>
             {testimonials.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
                 style={{
-                  width: currentIndex === idx ? '24px' : '8px',
+                  width: currentIndex === idx ? '26px' : '8px',
                   height: '8px',
                   borderRadius: '4px',
-                  background: currentIndex === idx ? 'var(--accent-cyan)' : 'rgba(255,255,255,0.2)',
+                  background: currentIndex === idx ? 'var(--primary-blue)' : '#cbd5e1',
                   transition: 'all 0.3s'
                 }}
                 aria-label={`Slide ${idx + 1}`}

@@ -10,20 +10,16 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
     // Check if open in Colombo (UTC+5:30)
     const checkOpenStatus = () => {
       const now = new Date();
-      // UTC time + 5.5 hours for Sri Lanka Time
       const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
       const slDate = new Date(utc + (3600000 * 5.5));
-      const day = slDate.getDay(); // 0 is Sunday
+      const day = slDate.getDay();
       const hour = slDate.getHours();
 
       if (day >= 1 && day <= 5) {
-        // Mon-Fri: 9am - 6pm (18:00)
         setIsOpenNow(hour >= 9 && hour < 18);
       } else if (day === 6) {
-        // Sat: 9am - 3pm (15:00)
         setIsOpenNow(hour >= 9 && hour < 15);
       } else {
-        // Sun closed
         setIsOpenNow(false);
       }
     };
@@ -32,7 +28,7 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
     const interval = setInterval(checkOpenStatus, 60000);
 
     const handleScroll = () => {
-      setScrolled(window.scrollY > 30);
+      setScrolled(window.scrollY > 20);
     };
     window.addEventListener('scroll', handleScroll);
 
@@ -65,30 +61,30 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
     <>
       {/* Top Banner Notice */}
       <div style={{
-        background: 'linear-gradient(90deg, #070d19, #0f223d, #070d19)',
+        background: '#f8fafc',
         borderBottom: '1px solid var(--border-light)',
         padding: '0.45rem 1rem',
-        fontSize: '0.8rem',
+        fontSize: '0.82rem',
         color: 'var(--text-muted)'
       }}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#fff' }}>
-              <ShieldCheck size={14} color="#00d2ff" />
-              Sri Lanka's Pioneer Cooling Partner Since 1998
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flexWrap: 'wrap' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-main)', fontWeight: 600 }}>
+              <ShieldCheck size={15} color="var(--primary-blue)" />
+              Pioneer Cooling Partner in Sri Lanka Since 1998
             </span>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-              <Clock size={14} color={isOpenNow ? '#10b981' : '#f59e0b'} />
-              <span>Colombo Office: </span>
-              <strong style={{ color: isOpenNow ? '#34d399' : '#f59e0b' }}>
+              <Clock size={14} color={isOpenNow ? '#059669' : '#d97706'} />
+              <span>Colombo Showroom: </span>
+              <strong style={{ color: isOpenNow ? '#059669' : '#d97706', fontWeight: 700 }}>
                 {isOpenNow ? 'Open Now (09:00 - 18:00)' : 'Closed Now (Opens 09:00 AM)'}
               </strong>
             </span>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
-            <a href="tel:+94112314355" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: '#00d2ff', fontWeight: 600 }}>
-              <Phone size={13} />
+            <a href="tel:+94112314355" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', color: 'var(--primary-blue)', fontWeight: 700 }}>
+              <Phone size={13} color="var(--primary-red)" />
               +94 11 2314355
             </a>
           </div>
@@ -97,7 +93,7 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
 
       {/* Main Header */}
       <header className="navbar-header" style={{
-        boxShadow: scrolled ? '0 10px 30px rgba(0,0,0,0.5)' : 'none',
+        boxShadow: scrolled ? '0 10px 25px -5px rgba(0,0,0,0.06)' : 'none',
       }}>
         <div className="container navbar-container">
           {/* Logo */}
@@ -107,7 +103,7 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
             </div>
             <div>
               <div className="brand-title">THILHARA</div>
-              <div className="brand-subtitle">Cooling Solutions & Spares</div>
+              <div className="brand-subtitle">Cooling Solution Partner</div>
             </div>
           </a>
 
@@ -130,7 +126,6 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
             <button
               onClick={onOpenQuote}
               className="btn-primary btn-sm"
-              style={{ padding: '0.65rem 1.25rem' }}
             >
               <span>Get a Quote</span>
               <ArrowRight size={15} />
@@ -142,8 +137,8 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
               style={{
                 display: 'none',
                 padding: '0.5rem',
-                color: '#fff',
-                border: '1px solid var(--border-light)',
+                color: 'var(--text-main)',
+                border: '1.5px solid var(--border-light)',
                 borderRadius: '8px'
               }}
               className="mobile-toggle"
@@ -157,12 +152,13 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
         {/* Mobile Slide-down Drawer */}
         {mobileMenuOpen && (
           <div style={{
-            background: '#0d172a',
-            borderBottom: '1px solid var(--border-active)',
+            background: '#ffffff',
+            borderBottom: '2px solid var(--primary-blue)',
             padding: '1.5rem',
             display: 'flex',
             flexDirection: 'column',
-            gap: '1rem'
+            gap: '1rem',
+            boxShadow: 'var(--shadow-xl)'
           }}>
             {navItems.map((item) => (
               <button
@@ -170,10 +166,10 @@ export default function Navbar({ onOpenQuote, activeSection, setActiveSection })
                 onClick={() => scrollTo(item.id)}
                 style={{
                   textAlign: 'left',
-                  fontSize: '1.1rem',
+                  fontSize: '1.05rem',
                   fontWeight: 600,
-                  color: activeSection === item.id ? 'var(--accent-cyan)' : '#cbd5e1',
-                  padding: '0.5rem 0',
+                  color: activeSection === item.id ? 'var(--primary-blue)' : 'var(--text-body)',
+                  padding: '0.65rem 0',
                   borderBottom: '1px solid var(--border-light)'
                 }}
               >

@@ -65,16 +65,16 @@ export default function QuoteModal({ isOpen, onClose, preselectedProduct }) {
         {!submitted ? (
           <>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-              <span className="badge">
+              <span className="badge badge-red">
                 <Calculator size={14} />
                 Engineering Proposal
               </span>
             </div>
 
-            <h3 style={{ fontSize: '1.65rem', marginBottom: '0.5rem', color: '#fff' }}>
+            <h3 style={{ fontSize: '1.65rem', marginBottom: '0.5rem', color: 'var(--text-main)' }}>
               Request a Project Quotation
             </h3>
-            <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginBottom: '1.75rem' }}>
+            <p style={{ fontSize: '0.92rem', color: 'var(--text-muted)', marginBottom: '1.75rem' }}>
               Provide your facility requirements and our technical engineers will prepare a detailed bill of quantities (BOQ) with competitive corporate pricing.
             </p>
 
@@ -173,7 +173,7 @@ export default function QuoteModal({ isOpen, onClose, preselectedProduct }) {
                 />
               </div>
 
-              <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end', marginTop: '1rem' }}>
+              <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end', marginTop: '1.25rem' }}>
                 <button type="button" onClick={onClose} className="btn-secondary btn-sm">
                   Cancel
                 </button>
@@ -190,20 +190,21 @@ export default function QuoteModal({ isOpen, onClose, preselectedProduct }) {
               width: '64px',
               height: '64px',
               borderRadius: '50%',
-              background: 'rgba(16, 185, 129, 0.15)',
+              background: '#ecfdf5',
+              border: '2px solid #a7f3d0',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               margin: '0 auto 1.5rem auto',
-              color: '#34d399'
+              color: '#059669'
             }}>
               <CheckCircle2 size={36} />
             </div>
 
-            <h3 style={{ fontSize: '1.75rem', marginBottom: '0.75rem', color: '#fff' }}>
+            <h3 style={{ fontSize: '1.75rem', marginBottom: '0.75rem', color: 'var(--text-main)' }}>
               Quote Request Submitted!
             </h3>
-            <p style={{ fontSize: '1rem', color: 'var(--text-muted)', maxWidth: '420px', margin: '0 auto 2rem auto', lineHeight: 1.6 }}>
+            <p style={{ fontSize: '1rem', color: 'var(--text-body)', maxWidth: '420px', margin: '0 auto 2rem auto', lineHeight: 1.6 }}>
               Our senior cooling engineer will review your requirements and reach out with technical sizing and formal pricing.
             </p>
 

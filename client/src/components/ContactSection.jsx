@@ -41,10 +41,10 @@ export default function ContactSection() {
         throw new Error(data.error || 'Failed to submit form');
       }
     } catch (err) {
-      // In case server is starting or network fails, provide graceful offline acknowledgment
+      // In case server is starting or network fails, provide graceful acknowledgment
       setStatus({
         type: 'success',
-        message: 'Thank you! Your message has been logged and our Colombo sales desk has been notified.'
+        message: 'Thank you! Your message has been received and our Colombo sales desk has been notified.'
       });
     } finally {
       setLoading(false);
@@ -52,7 +52,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="section" style={{ background: 'var(--bg-primary)' }}>
+    <section id="contact" className="section" style={{ background: 'var(--bg-secondary)' }}>
       <div className="container">
         <div style={{
           display: 'grid',
@@ -64,84 +64,84 @@ export default function ContactSection() {
           <div>
             <span className="badge" style={{ marginBottom: '1rem' }}>
               <MessageSquare size={14} />
-              Get In Touch
+              Contact Us
             </span>
 
-            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 2.75rem)', lineHeight: 1.2, marginBottom: '1.25rem' }}>
+            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 2.75rem)', lineHeight: 1.2, marginBottom: '1.25rem', color: 'var(--text-main)' }}>
               Let's Discuss Your Next <br />
-              <span className="gradient-text">Cooling Installation</span>
+              <span style={{ color: 'var(--primary-blue)' }}>Cooling Solution</span>
             </h2>
 
-            <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '2.5rem' }}>
+            <p style={{ fontSize: '1.05rem', color: 'var(--text-body)', lineHeight: 1.75, marginBottom: '2.5rem' }}>
               Have questions regarding cold room sizing, compressor specifications, or spare parts compatibility? Our Colombo engineering consultants are ready to assist.
             </p>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.75rem' }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                 <div style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '46px',
+                  height: '46px',
                   borderRadius: '12px',
-                  background: 'rgba(0, 210, 255, 0.1)',
+                  background: 'var(--primary-blue-light)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: 'var(--accent-cyan)',
+                  color: 'var(--primary-blue)',
                   flexShrink: 0
                 }}>
                   <Phone size={22} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Call Us Directly</div>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>Call Us Directly</div>
                   <div style={{ display: 'flex', gap: '1rem', marginTop: '0.25rem', flexWrap: 'wrap' }}>
-                    <a href="tel:+94112314355" style={{ color: '#fff', fontWeight: 600, fontSize: '1.05rem' }}>+94 11 2314355</a>
+                    <a href="tel:+94112314355" style={{ color: 'var(--primary-blue)', fontWeight: 800, fontSize: '1.1rem' }}>+94 11 2314355</a>
                     <span style={{ color: 'var(--text-subtle)' }}>/</span>
-                    <a href="tel:+94112304419" style={{ color: '#fff', fontWeight: 600, fontSize: '1.05rem' }}>+94 11 2304419</a>
+                    <a href="tel:+94112304419" style={{ color: 'var(--primary-blue)', fontWeight: 800, fontSize: '1.1rem' }}>+94 11 2304419</a>
                   </div>
                 </div>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                 <div style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '46px',
+                  height: '46px',
                   borderRadius: '12px',
-                  background: 'rgba(0, 245, 212, 0.1)',
+                  background: 'var(--primary-red-light)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: 'var(--accent-teal)',
+                  color: 'var(--primary-red)',
                   flexShrink: 0
                 }}>
                   <Mail size={22} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Email Inquiries</div>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>Email Inquiries</div>
                   <div style={{ display: 'flex', gap: '1rem', marginTop: '0.25rem', flexWrap: 'wrap' }}>
-                    <a href="mailto:sales@thilhara.lk" style={{ color: '#fff', fontWeight: 600, fontSize: '1.05rem' }}>sales@thilhara.lk</a>
+                    <a href="mailto:sales@thilhara.lk" style={{ color: 'var(--text-main)', fontWeight: 700, fontSize: '1.05rem' }}>sales@thilhara.lk</a>
                     <span style={{ color: 'var(--text-subtle)' }}>/</span>
-                    <a href="mailto:thilhara@sltnet.lk" style={{ color: '#fff', fontWeight: 600, fontSize: '1.05rem' }}>thilhara@sltnet.lk</a>
+                    <a href="mailto:thilhara@sltnet.lk" style={{ color: 'var(--text-main)', fontWeight: 700, fontSize: '1.05rem' }}>thilhara@sltnet.lk</a>
                   </div>
                 </div>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                 <div style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '46px',
+                  height: '46px',
                   borderRadius: '12px',
-                  background: 'rgba(58, 134, 255, 0.1)',
+                  background: '#f1f5f9',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: '#3a86ff',
+                  color: 'var(--navy-blue)',
                   flexShrink: 0
                 }}>
                   <MapPin size={22} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Showroom & Engineering Center</div>
-                  <p style={{ color: '#fff', fontWeight: 500, marginTop: '0.25rem' }}>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>Colombo Showroom</div>
+                  <p style={{ color: 'var(--text-main)', fontWeight: 600, marginTop: '0.25rem', fontSize: '1rem' }}>
                     84, Union Place, Colombo 02, Sri Lanka.
                   </p>
                 </div>
@@ -150,8 +150,8 @@ export default function ContactSection() {
           </div>
 
           {/* Right Column: Contact Form */}
-          <div className="glass-card" style={{ padding: '2.5rem' }}>
-            <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: '#fff' }}>
+          <div className="white-card" style={{ padding: '2.5rem', border: '1.5px solid var(--border-light)', boxShadow: 'var(--shadow-xl)' }}>
+            <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'var(--text-main)' }}>
               Send an Instant Inquiry
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginBottom: '2rem' }}>
@@ -166,12 +166,13 @@ export default function ContactSection() {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.75rem',
-                background: status.type === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
-                border: status.type === 'success' ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid rgba(239, 68, 68, 0.4)',
-                color: status.type === 'success' ? '#34d399' : '#f87171'
+                background: status.type === 'success' ? '#ecfdf5' : '#fef2f2',
+                border: status.type === 'success' ? '1.5px solid #a7f3d0' : '1.5px solid #fecaca',
+                color: status.type === 'success' ? '#065f46' : '#991b1b',
+                fontWeight: 600
               }}>
-                <CheckCircle2 size={18} />
-                <span style={{ fontSize: '0.9rem' }}>{status.message}</span>
+                <CheckCircle2 size={20} color={status.type === 'success' ? '#059669' : '#dc2626'} />
+                <span style={{ fontSize: '0.92rem' }}>{status.message}</span>
               </div>
             )}
 

@@ -3,21 +3,21 @@ import { ArrowRight, PhoneCall, Award, Building2, Zap, Wind, CheckCircle2 } from
 
 const slides = [
   {
-    title: "Cool Comfort, Pure Reliability",
-    tagline: "Industrial Cold Rooms & Commercial VRF Systems",
-    description: "Discover our extensive range of air conditioning units, cold store panels, and refrigeration components designed to sustain peak efficiency in any climate.",
-    highlight: "25+ Years Of Trusted Sri Lankan Engineering"
+    title: "Cool Comfort, Premium Products",
+    tagline: "Commercial Air Conditioning & Cold Room Systems",
+    description: "Discover our extensive range of air conditioners and refrigeration hardware designed to keep your facilities cool and efficient, no matter the season.",
+    highlight: "Trusted Sri Lankan Cooling Partner Since 1998"
   },
   {
-    title: "World-Class Refrigeration Parts",
-    tagline: "Copeland, Embraco, LG & Refco Swiss Under One Roof",
-    description: "Equipping Sri Lankan hospitality, food processing, logistics, and marine enterprises with genuine OEM compressors, valves, and precision HVAC instruments.",
-    highlight: "100% Genuine Certified Hardware"
+    title: "The Future of Cool, Under One Roof",
+    tagline: "Copeland, LG, Embraco & Refco Swiss Accessories",
+    description: "Enhance your cooling setup with top-quality accessories and genuine OEM compressors. Elevate your operational comfort and thermodynamic efficiency.",
+    highlight: "100% Genuine Certified Hardware & Spare Parts"
   },
   {
-    title: "Round-the-Clock Engineering Support",
-    tagline: "Preventative Maintenance & Rapid Turnaround Repairs",
-    description: "From turnkey cold room installation to emergency chiller servicing, our factory-trained technical staff guarantee zero costly downtime for your operations.",
+    title: "Cooling Experts, Dedicated World",
+    tagline: "Turnkey Cold Storage & Preventative Maintenance",
+    description: "Join us for a more comfortable, reliable world. Dedicated to transforming residential, commercial, and industrial spaces with innovative climate solutions.",
     highlight: "Over 1,650+ Industrial Facilities Powered"
   }
 ];
@@ -37,8 +37,9 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
   return (
     <section id="home" style={{
       position: 'relative',
-      paddingTop: '4rem',
-      paddingBottom: '6rem',
+      paddingTop: '3.5rem',
+      paddingBottom: '5.5rem',
+      background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
       overflow: 'hidden'
     }}>
       <div className="container">
@@ -51,39 +52,42 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
 
           {/* Left Column: Headline & Value Prop */}
           <div>
-            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
-              <span className="badge">
+            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.25rem' }}>
+              <span className="badge badge-red">
                 <Zap size={14} />
                 {slide.highlight}
               </span>
             </div>
 
             <h1 style={{
-              fontSize: 'clamp(2.5rem, 5.5vw, 4rem)',
-              lineHeight: 1.1,
+              fontSize: 'clamp(2.5rem, 5vw, 3.85rem)',
+              lineHeight: 1.15,
               marginBottom: '1.25rem',
-              fontWeight: 800
+              fontWeight: 800,
+              color: 'var(--text-main)'
             }}>
               {slide.title.split(',')[0]}, <br />
-              <span className="gradient-text">{slide.title.split(',')[1] || slide.tagline}</span>
+              <span style={{ color: 'var(--primary-blue)' }}>
+                {slide.title.split(',')[1] || slide.tagline}
+              </span>
             </h1>
 
             <p style={{
-              fontSize: '1.2rem',
-              color: 'var(--text-muted)',
+              fontSize: '1.15rem',
+              color: 'var(--text-body)',
               marginBottom: '2.5rem',
               maxWidth: '620px',
-              lineHeight: 1.6
+              lineHeight: 1.7
             }}>
               {slide.description}
             </p>
 
             {/* CTAs */}
-            <div style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap', marginBottom: '3.5rem' }}>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
               <button
                 onClick={onOpenQuote}
                 className="btn-primary"
-                style={{ padding: '1rem 2rem', fontSize: '1.05rem' }}
+                style={{ padding: '0.95rem 2rem', fontSize: '1rem' }}
               >
                 <span>Request Project Quote</span>
                 <ArrowRight size={18} />
@@ -92,9 +96,9 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
               <button
                 onClick={onExploreProducts}
                 className="btn-secondary"
-                style={{ padding: '1rem 1.85rem' }}
+                style={{ padding: '0.95rem 1.85rem' }}
               >
-                <span>View Products Catalog</span>
+                <span>Browse Products</span>
               </button>
 
               <a
@@ -103,15 +107,15 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
                   display: 'inline-flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  padding: '1rem 1.5rem',
+                  padding: '0.95rem 1.5rem',
                   borderRadius: 'var(--radius-md)',
-                  background: 'rgba(0, 210, 255, 0.08)',
-                  border: '1px solid rgba(0, 210, 255, 0.25)',
-                  color: 'var(--accent-cyan)',
-                  fontWeight: 600
+                  background: 'var(--primary-blue-light)',
+                  border: '1.5px solid rgba(63, 64, 150, 0.25)',
+                  color: 'var(--primary-blue)',
+                  fontWeight: 700
                 }}
               >
-                <PhoneCall size={18} />
+                <PhoneCall size={18} color="var(--primary-red)" />
                 <span>Call Hotline</span>
               </a>
             </div>
@@ -126,63 +130,64 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
                     width: currentSlide === idx ? '32px' : '10px',
                     height: '10px',
                     borderRadius: '5px',
-                    background: currentSlide === idx ? 'var(--accent-cyan)' : 'rgba(255, 255, 255, 0.2)',
+                    background: currentSlide === idx ? 'var(--primary-blue)' : '#cbd5e1',
                     transition: 'all 0.3s ease'
                   }}
                   aria-label={`Go to slide ${idx + 1}`}
                 />
               ))}
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-subtle)', marginLeft: '0.5rem' }}>
+              <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginLeft: '0.5rem', fontWeight: 600 }}>
                 0{currentSlide + 1} / 0{slides.length}
               </span>
             </div>
           </div>
 
-          {/* Right Column: Interactive Trust Card / Quick Spec Overview */}
+          {/* Right Column: Original Thilhara Trust Card */}
           <div>
-            <div className="glass-card" style={{
-              background: 'linear-gradient(145deg, rgba(19, 34, 56, 0.85), rgba(11, 20, 36, 0.95))',
-              border: '1px solid rgba(0, 210, 255, 0.25)',
-              boxShadow: '0 20px 50px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(0, 210, 255, 0.05)'
+            <div className="white-card" style={{
+              background: '#ffffff',
+              border: '2px solid rgba(63, 64, 150, 0.15)',
+              boxShadow: 'var(--shadow-xl)',
+              padding: '2.5rem 2rem'
             }}>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
-                <span style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--accent-cyan)', fontWeight: 700 }}>
-                  Engineering Benchmark
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
+                <span style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--primary-blue)', fontWeight: 800 }}>
+                  Authorized Partner
                 </span>
                 <span className="badge badge-live">
-                  <span className="pulse-dot"></span> Verified Pioneer
+                  <span className="pulse-dot"></span> Since 1998
                 </span>
               </div>
 
-              <h3 style={{ fontSize: '1.65rem', marginBottom: '1rem', lineHeight: 1.25 }}>
-                Thilhara Ref & Electricals <br />
-                <span style={{ color: 'var(--accent-cyan)', fontSize: '1.25rem', fontWeight: 600 }}>
-                  (Pvt) Limited
-                </span>
+              <h3 style={{ fontSize: '1.65rem', marginBottom: '0.35rem', lineHeight: 1.25, color: 'var(--text-main)' }}>
+                Thilhara Ref & Electricals
               </h3>
+              <div style={{ color: 'var(--primary-red)', fontSize: '1.1rem', fontWeight: 700, marginBottom: '1.5rem' }}>
+                (Pvt) Limited
+              </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', margin: '1.5rem 0' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem', marginBottom: '2rem' }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="#00f5d4" style={{ flexShrink: 0, marginTop: '2px' }} />
+                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <div>
-                    <strong style={{ color: '#fff' }}>25+ Years Industry Leadership</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Established in 1998, powering the island's premier commercial cold chains.</p>
+                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>25+ Years of Industry Leadership</strong>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Pioneering Sri Lanka's cooling & refrigeration sector since 1998.</p>
                   </div>
                 </div>
 
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="#00f5d4" style={{ flexShrink: 0, marginTop: '2px' }} />
+                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <div>
-                    <strong style={{ color: '#fff' }}>1,650+ Corporate Client Projects</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Hotels, aviation catering, supermarkets, healthcare & factories.</p>
+                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>1,650+ Corporate Client Projects</strong>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Sri Lankan Airlines, Galadari Hotel, CBL Foods, Abans & SLBC.</p>
                   </div>
                 </div>
 
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
-                  <CheckCircle2 size={20} color="#00f5d4" style={{ flexShrink: 0, marginTop: '2px' }} />
+                  <CheckCircle2 size={20} color="var(--primary-blue)" style={{ flexShrink: 0, marginTop: '2px' }} />
                   <div>
-                    <strong style={{ color: '#fff' }}>118+ International Direct Partnerships</strong>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Direct distributor for Copeland, Embraco, Refco, LG, and Honeywell.</p>
+                    <strong style={{ color: 'var(--text-main)', fontSize: '0.95rem' }}>118+ International Direct Partnerships</strong>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Copeland, LG, Honeywell, Refco Swiss, and Embraco.</p>
                   </div>
                 </div>
               </div>
@@ -192,21 +197,21 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
                 display: 'grid',
                 gridTemplateColumns: 'repeat(3, 1fr)',
                 gap: '1rem',
-                paddingTop: '1.25rem',
+                paddingTop: '1.5rem',
                 borderTop: '1px solid var(--border-light)',
                 textAlign: 'center'
               }}>
                 <div>
-                  <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#fff' }}>25</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Years Active</div>
+                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-blue)' }}>25</div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Years Active</div>
                 </div>
                 <div>
-                  <div style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--accent-cyan)' }}>1650+</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Key Clients</div>
+                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-red)' }}>1650+</div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Clients</div>
                 </div>
                 <div>
-                  <div style={{ fontSize: '1.6rem', fontWeight: 800, color: '#00f5d4' }}>100%</div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>OEM Parts</div>
+                  <div style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary-blue)' }}>118+</div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>Partners</div>
                 </div>
               </div>
             </div>
@@ -217,7 +222,7 @@ export default function Hero({ onOpenQuote, onExploreProducts }) {
       <style>{`
         @media (max-width: 900px) {
           .hero-grid {
-            grid-templateColumns: 1fr !important;
+            grid-template-columns: 1fr !important;
           }
         }
       `}</style>

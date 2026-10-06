@@ -8,7 +8,8 @@ const pillars = [
     title: "Ultra Power Saving",
     desc: "Next-generation inverter technology & optimized thermo-dynamics reduce electricity overheads by up to 45% compared to legacy cooling systems.",
     highlight: "Up to 45% Energy Reduction",
-    color: "#00d2ff"
+    color: "#3F4096",
+    bgTint: "var(--primary-blue-light)"
   },
   {
     icon: Snowflake,
@@ -16,7 +17,8 @@ const pillars = [
     title: "Hyper Cooling Output",
     desc: "Engineered for harsh tropical humidity and extreme thermal loads. Provides rapid pulldown times for blast freezers, cold rooms, and commercial halls.",
     highlight: "Sub-Zero Rapid Pulldown",
-    color: "#00f5d4"
+    color: "#EE3338",
+    bgTint: "var(--primary-red-light)"
   },
   {
     icon: Globe,
@@ -24,18 +26,68 @@ const pillars = [
     title: "Universal Brands",
     desc: "Direct supply agreements with world industry giants: Copeland, Embraco, LG, Honeywell, and Refco Swiss. 100% factory warrantied authentic parts.",
     highlight: "118+ Global Partnerships",
-    color: "#3a86ff"
+    color: "#1b1c4b",
+    bgTint: "#f1f5f9"
   }
 ];
 
 export default function FeaturePillars() {
   return (
     <section style={{
-      padding: '2rem 0 5rem 0',
+      padding: '1.5rem 0 5rem 0',
       position: 'relative',
-      zIndex: 2
+      zIndex: 2,
+      background: '#ffffff'
     }}>
       <div className="container">
+        {/* Signature Brand Highlight Bar (Adapted from Original Site's Mid-Hero) */}
+        <div style={{
+          background: 'linear-gradient(125deg, #3F4096 0%, #EE3338 100%)',
+          borderRadius: 'var(--radius-lg)',
+          padding: '1.5rem 2.5rem',
+          color: '#ffffff',
+          boxShadow: 'var(--shadow-xl)',
+          marginBottom: '3rem',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '1.5rem'
+        }}>
+          <div>
+            <span style={{
+              fontSize: '0.8rem',
+              fontWeight: 800,
+              textTransform: 'uppercase',
+              letterSpacing: '0.1em',
+              background: 'rgba(255, 255, 255, 0.2)',
+              padding: '0.25rem 0.75rem',
+              borderRadius: 'var(--radius-full)'
+            }}>
+              Thilhara Standard
+            </span>
+            <h3 style={{ fontSize: '1.5rem', color: '#fff', marginTop: '0.4rem', fontWeight: 700 }}>
+              Engineered For Industrial Performance & Reliability
+            </h3>
+          </div>
+
+          <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '1.75rem', fontWeight: 800 }}>100%</div>
+              <div style={{ fontSize: '0.8rem', opacity: 0.9 }}>OEM Certified</div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '1.75rem', fontWeight: 800 }}>24/7</div>
+              <div style={{ fontSize: '0.8rem', opacity: 0.9 }}>Support Hotline</div>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '1.75rem', fontWeight: 800 }}>Islandwide</div>
+              <div style={{ fontSize: '0.8rem', opacity: 0.9 }}>Rapid Dispatch</div>
+            </div>
+          </div>
+        </div>
+
+        {/* 3 Pillars Grid */}
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -46,12 +98,13 @@ export default function FeaturePillars() {
             return (
               <div
                 key={idx}
-                className="glass-card"
+                className="white-card"
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
                   justifyContent: 'space-between',
-                  borderTop: `2px solid ${p.color}`
+                  borderTop: `4px solid ${p.color}`,
+                  background: '#ffffff'
                 }}
               >
                 <div>
@@ -62,20 +115,20 @@ export default function FeaturePillars() {
                     marginBottom: '1.25rem'
                   }}>
                     <div style={{
-                      width: '48px',
-                      height: '48px',
+                      width: '50px',
+                      height: '50px',
                       borderRadius: '12px',
-                      background: `rgba(${idx === 0 ? '0, 210, 255' : idx === 1 ? '0, 245, 212' : '58, 134, 255'}, 0.15)`,
+                      background: p.bgTint,
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       color: p.color
                     }}>
-                      <Icon size={24} />
+                      <Icon size={26} />
                     </div>
                     <span style={{
                       fontSize: '0.75rem',
-                      fontWeight: 700,
+                      fontWeight: 800,
                       textTransform: 'uppercase',
                       letterSpacing: '0.08em',
                       color: 'var(--text-muted)'
@@ -84,23 +137,23 @@ export default function FeaturePillars() {
                     </span>
                   </div>
 
-                  <h3 style={{ fontSize: '1.4rem', marginBottom: '0.75rem', color: '#fff' }}>
+                  <h3 style={{ fontSize: '1.45rem', marginBottom: '0.75rem', color: 'var(--text-main)' }}>
                     {p.title}
                   </h3>
 
-                  <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+                  <p style={{ fontSize: '0.95rem', color: 'var(--text-body)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
                     {p.desc}
                   </p>
                 </div>
 
                 <div style={{
-                  paddingTop: '1rem',
+                  paddingTop: '1.25rem',
                   borderTop: '1px solid var(--border-light)',
                   display: 'flex',
                   alignItems: 'center',
                   gap: '0.5rem',
-                  fontSize: '0.85rem',
-                  fontWeight: 600,
+                  fontSize: '0.9rem',
+                  fontWeight: 700,
                   color: p.color
                 }}>
                   <Shield size={16} />

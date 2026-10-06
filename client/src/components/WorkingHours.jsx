@@ -8,7 +8,7 @@ const schedule = [
   { day: "Thursday", hours: "09:00 AM - 06:00 PM", dayIndex: 4 },
   { day: "Friday", hours: "09:00 AM - 06:00 PM", dayIndex: 5 },
   { day: "Saturday", hours: "09:00 AM - 03:00 PM", dayIndex: 6 },
-  { day: "Sunday", hours: "Emergency Callout Only", dayIndex: 0 }
+  { day: "Sunday", hours: "Closed (Emergency Callouts)", dayIndex: 0 }
 ];
 
 export default function WorkingHours() {
@@ -34,7 +34,7 @@ export default function WorkingHours() {
   }, []);
 
   return (
-    <section id="hours" className="section" style={{ background: 'var(--bg-primary)' }}>
+    <section id="hours" className="section" style={{ background: '#ffffff' }}>
       <div className="container">
         <div style={{
           display: 'grid',
@@ -47,64 +47,64 @@ export default function WorkingHours() {
           <div>
             <span className="badge" style={{ marginBottom: '1rem' }}>
               <Clock size={14} />
-              Flexible Support Hours
+              Flexible Working Hours
             </span>
 
-            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 2.75rem)', lineHeight: 1.2, marginBottom: '1.25rem' }}>
-              Always Ready To Support Your <br />
-              <span className="gradient-text">Cold Chain Operations</span>
+            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 2.75rem)', lineHeight: 1.2, marginBottom: '1.25rem', color: 'var(--text-main)' }}>
+              THILHARA <br />
+              <span style={{ color: 'var(--primary-blue)' }}>FLEXIBLE HOURS</span>
             </h2>
 
-            <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '2rem' }}>
-              We understand that cooling reliability is paramount for hospitals, supermarkets, cold stores, and food factories. That’s why Thilhara provides extended warehouse access, prompt Saturday dispatches, and emergency assistance.
+            <p style={{ fontSize: '1.05rem', color: 'var(--text-body)', lineHeight: 1.75, marginBottom: '2rem' }}>
+              As a company, we prioritize customer convenience and satisfaction through flexible hours of operation. We understand that your comfort is paramount, which is why we offer extended service hours, including evenings and weekends. Our commitment to meeting your air conditioning needs sets us apart.
             </p>
 
             {/* Location & Hotlines Card */}
-            <div className="glass-card" style={{ padding: '1.5rem', marginBottom: '1.5rem' }}>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', marginBottom: '1.25rem' }}>
+            <div className="white-card" style={{ padding: '1.75rem', marginBottom: '1.5rem', border: '1.5px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', marginBottom: '1.5rem' }}>
                 <div style={{
-                  width: '40px',
-                  height: '40px',
-                  borderRadius: '10px',
-                  background: 'rgba(0, 210, 255, 0.15)',
+                  width: '44px',
+                  height: '44px',
+                  borderRadius: '12px',
+                  background: 'var(--primary-blue-light)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: 'var(--accent-cyan)',
+                  color: 'var(--primary-blue)',
                   flexShrink: 0
                 }}>
-                  <MapPin size={20} />
+                  <MapPin size={22} />
                 </div>
                 <div>
-                  <strong style={{ color: '#fff', fontSize: '1rem' }}>Colombo Central Headquarters</strong>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
-                    84, Union Place, Colombo 02, Sri Lanka
+                  <strong style={{ color: 'var(--text-main)', fontSize: '1.05rem' }}>Colombo Central Showroom</strong>
+                  <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>
+                    84, Union Place, Colombo 02, Sri Lanka.
                   </p>
                 </div>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                 <div style={{
-                  width: '40px',
-                  height: '40px',
-                  borderRadius: '10px',
-                  background: 'rgba(0, 245, 212, 0.15)',
+                  width: '44px',
+                  height: '44px',
+                  borderRadius: '12px',
+                  background: 'var(--primary-red-light)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  color: 'var(--accent-teal)',
+                  color: 'var(--primary-red)',
                   flexShrink: 0
                 }}>
-                  <Phone size={20} />
+                  <Phone size={22} />
                 </div>
                 <div>
-                  <strong style={{ color: '#fff', fontSize: '1rem' }}>Direct Dispatch Lines</strong>
+                  <strong style={{ color: 'var(--text-main)', fontSize: '1.05rem' }}>Direct Dispatch Lines</strong>
                   <div style={{ display: 'flex', gap: '1rem', marginTop: '0.2rem', flexWrap: 'wrap' }}>
-                    <a href="tel:+94112314355" style={{ color: 'var(--accent-cyan)', fontWeight: 600, fontSize: '0.9rem' }}>
+                    <a href="tel:+94112314355" style={{ color: 'var(--primary-blue)', fontWeight: 700, fontSize: '0.95rem' }}>
                       +94 11 2314355
                     </a>
                     <span style={{ color: 'var(--text-subtle)' }}>|</span>
-                    <a href="tel:+94112304419" style={{ color: 'var(--accent-cyan)', fontWeight: 600, fontSize: '0.9rem' }}>
+                    <a href="tel:+94112304419" style={{ color: 'var(--primary-blue)', fontWeight: 700, fontSize: '0.95rem' }}>
                       +94 11 2304419
                     </a>
                   </div>
@@ -115,27 +115,28 @@ export default function WorkingHours() {
 
           {/* Right Column: Schedule Table */}
           <div>
-            <div className="glass-card" style={{
-              border: isCurrentlyOpen ? '1px solid rgba(16, 185, 129, 0.4)' : '1px solid var(--border-light)',
-              boxShadow: isCurrentlyOpen ? '0 0 30px rgba(16, 185, 129, 0.15)' : 'var(--shadow-md)'
+            <div className="white-card" style={{
+              border: isCurrentlyOpen ? '2px solid rgba(5, 150, 105, 0.4)' : '1.5px solid var(--border-light)',
+              boxShadow: 'var(--shadow-xl)',
+              background: '#ffffff'
             }}>
               <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
                 paddingBottom: '1.25rem',
-                borderBottom: '1px solid var(--border-light)',
+                borderBottom: '1.5px solid var(--border-light)',
                 marginBottom: '1rem'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <Calendar size={18} color="var(--accent-cyan)" />
-                  <h3 style={{ fontSize: '1.25rem' }}>Operating Hours</h3>
+                  <Calendar size={20} color="var(--primary-blue)" />
+                  <h3 style={{ fontSize: '1.3rem', color: 'var(--text-main)' }}>Operating Hours</h3>
                 </div>
 
                 <span className={`badge ${isCurrentlyOpen ? 'badge-live' : ''}`} style={{
-                  background: isCurrentlyOpen ? 'rgba(16, 185, 129, 0.15)' : 'rgba(245, 158, 11, 0.15)',
-                  borderColor: isCurrentlyOpen ? 'rgba(16, 185, 129, 0.4)' : 'rgba(245, 158, 11, 0.4)',
-                  color: isCurrentlyOpen ? '#34d399' : '#fbbf24'
+                  background: isCurrentlyOpen ? '#ecfdf5' : '#fef3c7',
+                  borderColor: isCurrentlyOpen ? '#a7f3d0' : '#fde68a',
+                  color: isCurrentlyOpen ? '#059669' : '#d97706'
                 }}>
                   <span className="pulse-dot"></span>
                   {isCurrentlyOpen ? 'Currently Open' : 'Closed for the Day'}
@@ -154,23 +155,23 @@ export default function WorkingHours() {
                         alignItems: 'center',
                         padding: '0.85rem 1rem',
                         borderRadius: 'var(--radius-sm)',
-                        background: isToday ? 'rgba(0, 210, 255, 0.12)' : 'transparent',
-                        border: isToday ? '1px solid rgba(0, 210, 255, 0.3)' : '1px solid transparent'
+                        background: isToday ? 'var(--primary-blue-light)' : '#ffffff',
+                        border: isToday ? '1.5px solid rgba(63, 64, 150, 0.3)' : '1px solid transparent'
                       }}
                     >
                       <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        {isToday && <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--accent-cyan)' }} />}
+                        {isToday && <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary-blue)' }} />}
                         <span style={{
-                          fontWeight: isToday ? 700 : 500,
-                          color: isToday ? '#ffffff' : 'var(--text-muted)'
+                          fontWeight: isToday ? 800 : 600,
+                          color: isToday ? 'var(--primary-blue)' : 'var(--text-body)'
                         }}>
                           {item.day} {isToday && '(Today)'}
                         </span>
                       </div>
 
                       <span style={{
-                        fontWeight: 600,
-                        color: item.day === 'Sunday' ? 'var(--text-subtle)' : isToday ? 'var(--accent-cyan)' : '#ffffff'
+                        fontWeight: isToday ? 800 : 600,
+                        color: item.day === 'Sunday' ? 'var(--text-muted)' : isToday ? 'var(--primary-blue)' : 'var(--text-main)'
                       }}>
                         {item.hours}
                       </span>
@@ -180,14 +181,14 @@ export default function WorkingHours() {
               </div>
 
               <div style={{
-                marginTop: '1.25rem',
+                marginTop: '1.5rem',
                 paddingTop: '1rem',
                 borderTop: '1px solid var(--border-light)',
-                fontSize: '0.8rem',
+                fontSize: '0.82rem',
                 color: 'var(--text-muted)',
                 textAlign: 'center'
               }}>
-                Sri Lanka Standard Time (UTC +05:30) • 24/7 Breakdown Hotline for AMC Contract Clients
+                Sri Lanka Standard Time (UTC +05:30) • 24/7 Hotline for Emergency Technical Repairs
               </div>
             </div>
           </div>

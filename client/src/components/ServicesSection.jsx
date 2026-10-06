@@ -38,13 +38,13 @@ function SnowflakeIcon(props) {
 
 export default function ServicesSection({ onOpenQuote }) {
   return (
-    <section id="services" className="section" style={{ background: 'var(--bg-primary)' }}>
+    <section id="services" className="section" style={{ background: '#ffffff' }}>
       <div className="container">
         <div className="section-header">
           <span className="badge">Engineering Services</span>
           <h2 className="section-title">
             Comprehensive Support & <br />
-            <span className="gradient-text">Turnkey Cooling Engineering</span>
+            <span style={{ color: 'var(--primary-blue)' }}>Turnkey Cooling Engineering</span>
           </h2>
           <p className="section-subtitle">
             From initial thermal capacity calculation to post-commissioning service contracts,
@@ -60,39 +60,39 @@ export default function ServicesSection({ onOpenQuote }) {
           {services.map((s, idx) => {
             const Icon = s.icon;
             return (
-              <div key={idx} className="glass-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div key={idx} className="white-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: '1.5px solid var(--border-light)' }}>
                 <div>
                   <div style={{
-                    width: '52px',
-                    height: '52px',
+                    width: '54px',
+                    height: '54px',
                     borderRadius: '14px',
-                    background: 'rgba(0, 210, 255, 0.12)',
+                    background: 'var(--primary-blue-light)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    color: 'var(--accent-cyan)',
+                    color: 'var(--primary-blue)',
                     marginBottom: '1.5rem',
-                    border: '1px solid rgba(0, 210, 255, 0.25)'
+                    border: '1px solid rgba(63, 64, 150, 0.2)'
                   }}>
                     <Icon size={26} />
                   </div>
 
-                  <h3 style={{ fontSize: '1.4rem', marginBottom: '0.85rem' }}>{s.title}</h3>
-                  <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+                  <h3 style={{ fontSize: '1.4rem', marginBottom: '0.85rem', color: 'var(--text-main)' }}>{s.title}</h3>
+                  <p style={{ fontSize: '0.95rem', color: 'var(--text-body)', lineHeight: 1.6, marginBottom: '1.5rem' }}>
                     {s.desc}
                   </p>
 
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '1.5rem' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.55rem', marginBottom: '1.5rem' }}>
                     {s.capabilities.map((c, cIdx) => (
-                      <div key={cIdx} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', color: '#cbd5e1' }}>
-                        <CheckSquare2 size={15} color="#00f5d4" />
+                      <div key={cIdx} style={{ display: 'flex', alignItems: 'center', gap: '0.55rem', fontSize: '0.88rem', color: 'var(--text-body)', fontWeight: 500 }}>
+                        <CheckSquare2 size={16} color="var(--primary-red)" />
                         <span>{c}</span>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                <div style={{ paddingTop: '1rem', borderTop: '1px solid var(--border-light)' }}>
+                <div style={{ paddingTop: '1.25rem', borderTop: '1px solid var(--border-light)' }}>
                   <button
                     onClick={onOpenQuote}
                     style={{
@@ -100,8 +100,8 @@ export default function ServicesSection({ onOpenQuote }) {
                       alignItems: 'center',
                       gap: '0.4rem',
                       fontSize: '0.9rem',
-                      fontWeight: 600,
-                      color: 'var(--accent-cyan)'
+                      fontWeight: 700,
+                      color: 'var(--primary-blue)'
                     }}
                   >
                     <span>Request Engineering Scope</span>
