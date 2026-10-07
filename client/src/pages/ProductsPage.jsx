@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronRight, Star, CheckCircle, ArrowRight, Layers, SlidersHorizontal, Package, PhoneCall, ShieldCheck } from 'lucide-react';
+import syncedProductsData from '../data/products.json';
 
 const allProductsData = [
   {
@@ -174,8 +175,6 @@ const allProductsData = [
   }
 ];
 
-import syncedProductsData from '../data/products.json';
-
 const allCategoriesList = [
   { name: "All Categories", slug: "all" },
   { name: "Air Condition Accessories", slug: "air-condition-accessories" },
@@ -208,7 +207,7 @@ export default function ProductsPage({ onOpenQuote }) {
     fetch('http://localhost:8080/api/products')
       .then(res => res.json())
       .then(data => {
-        if (data && data.data && data.data.length > 0) {
+        if (data && data.data && data.data.length >= (syncedProductsData?.length || 0)) {
           setProducts(data.data);
         }
       })

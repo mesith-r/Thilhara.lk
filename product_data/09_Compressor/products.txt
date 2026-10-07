@@ -1,26 +1,40 @@
 # Category: Compressor
+
 [PRODUCT]
-Name: Copeland Scroll Commercial Inverter Compressor
-Image: copeland-scroll.jpg
-Brand: Copeland
-Model: ZP72KCE-TFD
-Description: World-renowned Copeland Scroll reliability engineered for commercial refrigeration and climate cooling. High energy efficiency and low sound footprint.
+Name: Rotary Compressor
+Image: rotary_compressor.jpg
+Brand: Thilhara Genuine
+Model: TH-50
+Description: Introducing our Rotary Compressor – the pinnacle of reliable and energy-efficient refrigeration technology for cold storage. Engineered with precision, it ensures consistent cooling performance in demanding environments. Its smooth rotary motion guarantees quiet operation, making it ideal for noise-sensitive applications. Crafted from high-quality materials, it offers exceptional durability even under heavy loads. This advanced design maximizes energy efficiency, reducing operational costs and environmental impact. Easy to install and maintain, our Rotary Compressor is the top choice for commercial freezers, walk-in coolers, and industrial refrigeration units, ensuring your products are preserved in optimal conditions...
 Specs:
-  Displacement: 72,000 BTU/hr
-  Power Supply: 380-420V / 3Ph / 50Hz
-  Refrigerant: R410A / R407C / R134a
-  Motor Protection: Internal Thermal Protection
+  Type: Hermetic Scroll / Rotary
+  Refrigerant: R410A / R404A / R134a / R22
+  Voltage: 220-240V / 1Ph / 50Hz (or 380V 3Ph)
+  Application: High / Medium / Low Back Pressure Commercial Cooling
 InStock: Yes
 
 [PRODUCT]
-Name: Embraco Aspera Commercial Hermetic Compressor
-Image: embraco-aspera.jpg
-Brand: Embraco
-Model: NEK6210GK
-Description: Premium high back pressure hermetic reciprocating compressor for commercial beverage coolers, display cases, and ice machines.
+Name: Hermetic Compressor
+Image: hermetic_compressor.png
+Brand: Thilhara Genuine
+Model: TH-36
+Description: Introducing our Cold Room Accessories Hermetic Compressor – the heart of reliable refrigeration systems. Engineered for efficiency and durability, these hermetic compressors are designed to withstand the demands of cold storage environments. Their compact and sealed construction ensures minimal vibration and noise, delivering efficient cooling without disturbances. Crafted with high-quality materials, these compressors offer excellent performance, maintaining consistent temperatures within cold rooms. Whether for commercial freezers, walk-in coolers, or industrial refrigeration units, our hermetic compressors guarantee reliable operation, ensuring the freshness and longevity of stored products. With advanced technology and proven reliability, these compressors are the preferred choice for professionals seeking top-tier performance in cold room applications. Trust in our Hermetic Compressors for superior cooling efficiency and dependable operation in your refrigeration systems...
 Specs:
-  Horsepower: 1/2 HP
-  Refrigerant: R404A / R507
-  Displacement: 8.78 cm³
-  Power: 220-240V / 50Hz
+  Type: Semi-Hermetic Reciprocating
+  Refrigerant: R410A / R404A / R134a / R22
+  Voltage: 220-240V / 1Ph / 50Hz (or 380V 3Ph)
+  Application: High / Medium / Low Back Pressure Commercial Cooling
+InStock: Yes
+
+[PRODUCT]
+Name: Copeland Scroll Compressor
+Image: copeland_scroll_compressor.png
+Brand: Copeland
+Model: TH-15
+Description: Introducing our Air Condition Accessories Copeland Scroll Compressor – the pinnacle of innovation and reliability in HVAC technology. This compressor stands out for its advanced design and superior efficiency, ensuring unmatched cooling performance for air conditioning systems. Engineered with precision, it utilizes scroll technology for smoother, quieter, and more energy-efficient operation compared to traditional compressors. Copeland Scroll Compressors deliver consistent cooling, even in demanding environments, ensuring desired temperatures are maintained. With outstanding reliability and durability, these compressors minimize downtime, reducing maintenance costs and enhancing HVAC system longevity. Suitable for residential and commercial use, our Copeland Scroll Compressor guarantees efficient, quiet, and reliable air conditioning, providing optimal comfort and energy savings for years to come...
+Specs:
+  Type: Hermetic Scroll / Rotary
+  Refrigerant: R410A / R404A / R134a / R22
+  Voltage: 220-240V / 1Ph / 50Hz (or 380V 3Ph)
+  Application: High / Medium / Low Back Pressure Commercial Cooling
 InStock: Yes

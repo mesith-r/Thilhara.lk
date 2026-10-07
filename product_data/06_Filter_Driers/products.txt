@@ -1,24 +1,79 @@
 # Category: Filter Driers
+
 [PRODUCT]
-Name: Danfoss DCL 163 Solid Core Liquid Line Filter Drier
-Image: danfoss-dcl-163.jpg
-Brand: Danfoss
-Model: DCL 163
-Description: High moisture absorption solid core liquid line filter drier for CFC, HCFC, and HFC refrigerants. Exceptional acid and moisture capture.
+Name: SRS Suction Line Filter Drier
+Image: srs_suction_line_filter_drier.jpg
+Brand: Thilhara Genuine
+Model: TH-56
+Description: Introducing our SRS Suction Line Filter Drier – the essential solution for contaminant-free refrigerant flow in cold storage. Engineered for precision, this filter efficiently captures moisture, debris, and impurities, safeguarding compressors and vital components. Crafted from high-quality, corrosion-resistant materials, it ensures reliable performance in harsh conditions. The advanced filtration technology guarantees clean, dry refrigerant, promoting efficient heat exchange and extending your system's life. Easy to install and maintain, it simplifies maintenance, saving time and effort for technicians. Trust in its effectiveness for uninterrupted cold room operations, preserving product freshness and maximizing your refrigeration system's efficiency...
 Specs:
-  Connection: 3/8 in Flare (Male)
-  Core Composition: 80% Molecular Sieve / 20% Activated Alumina
-  Max Pressure: 46 bar
-  Refrigerant: R134a, R404A, R407C, R410A, R507
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
 InStock: Yes
 
 [PRODUCT]
-Name: Alco BFK Bi-Flow Heat Pump Filter Drier
-Image: alco-bfk-drier.jpg
-Brand: Alco Controls
-Model: BFK-083S
-Description: Bi-directional solid core filter drier with internal check valves engineered for reversible heat pump and air conditioning systems.
+Name: SRS Reversible Heat Pump Filter Drier
+Image: srs_reversible_heat_pump_filter_drier.png
+Brand: Thilhara Genuine
+Model: TH-55
+Description: Introducing our SRS Reversible Heat Pump Filter Drier – the ultimate solution for peak performance in heat pump systems. This precision-engineered drier ensures efficient filtration and moisture removal, protecting compressors and components from contaminants and excess humidity. Crafted with high-quality, durable, and corrosion-resistant materials, it guarantees reliability in heat pump applications. Its innovative design allows it to work effectively in both heating and cooling cycles, offering versatile protection year-round. Easy to install, it simplifies maintenance, saving time and effort for technicians. Trust in its efficiency to ensure uninterrupted heat pump operation, enhancing energy efficiency and prolonging your HVAC system's life...
 Specs:
-  Connection: 3/8 in ODS Solder
-  Volume: 130 cm³
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
+InStock: Yes
+
+[PRODUCT]
+Name: Oil Filter Drier
+Image: oil_filter_drier.png
+Brand: Thilhara Genuine
+Model: TH-43
+Description: Introducing our Oil Filter Drier – the ultimate solution for refrigeration system purity. Crafted with precision, it effectively filters out contaminants, moisture, and acids, ensuring equipment longevity. Made from high-quality materials, it withstands harsh conditions, preventing clogs and ensuring uninterrupted cooling. Easy to install and compact, it's ideal for new installations and upgrades. Trust our Oil Filter Drier for clean, efficient, and long-lasting refrigeration systems...
+Specs:
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
+InStock: Yes
+
+[PRODUCT]
+Name: Copper Spun Filter Drier (XS215)
+Image: copper_spun_filter_drier_(xs215).png
+Brand: Thilhara Genuine
+Model: XS215
+Description: Introducing our Cold Room Accessories Copper Spun Filter Drier (XS215) – the foundation of refrigeration system longevity and efficiency. Precision-engineered, this filter drier boasts a robust copper spun shell, ensuring exceptional durability and corrosion resistance. Its advanced filtration design efficiently captures moisture, contaminants, and acids, protecting cold room equipment and refrigerants from damage. The XS215 Copper Spun Filter Drier prevents blockages and ice formation, ensuring seamless cooling performance. Easy to install, it integrates effortlessly into refrigeration lines, enhancing system reliability and extending your compressor's lifespan. Compatible with various refrigerants and operating conditions, this filter drier is vital for maintaining optimal cold room functionality. Trust in XS215 for uninterrupted, efficient, and trouble-free refrigeration, safeguarding your investments and ensuring consistent temperature control for your valuable products...
+Specs:
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
+InStock: Yes
+
+[PRODUCT]
+Name: Copper Spun Filter Drier (XS215-big cap)
+Image: copper_spun_filter_drier_(xs215-big_cap).jpg
+Brand: Thilhara Genuine
+Model: XS215-big cap
+Description: Introducing our Cold Room Accessories Copper Spun Filter Drier (XS215-big cap) – the pinnacle of filtration efficiency and durability for refrigeration systems. Engineered to perfection, this filter drier boasts a robust copper spun shell, offering exceptional corrosion resistance and longevity. Its advanced filtration technology captures moisture, contaminants, and acids, preserving the integrity of cold room equipment and refrigerants. The XS215-big cap Copper Spun Filter Drier prevents blockages, ice formation, and system breakdowns, ensuring uninterrupted cooling performance. Designed for easy installation, it fits seamlessly into refrigeration lines, enhancing system reliability and extending the compressor's life. Suitable for various refrigerants and operating conditions, this filter drier is crucial for maintaining efficient and trouble-free cold room operations. It safeguards your investments, ensuring consistent, high-quality refrigeration...
+Specs:
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
+InStock: Yes
+
+[PRODUCT]
+Name: Copper Spun Filter Drier (XS115)
+Image: copper_spun_filter_drier_(xs115).png
+Brand: Thilhara Genuine
+Model: XS115
+Description: Introducing our Cold Room Accessories Copper Spun Filter Drier (XS115) – the ultimate solution for moisture and debris elimination in refrigeration systems. Precision-crafted with a high-grade copper spun shell, this drier ensures exceptional durability and resistance to corrosion. Its advanced filtration design effectively captures contaminants, safeguarding cold room equipment and refrigerants from damage. The XS115 Copper Spun Filter Drier guarantees moisture removal, preventing ice formation and maintaining optimal cooling efficiency. Easy to install and suitable for various refrigerants and operating conditions, this filter drier enhances system reliability and prolongs the life of your compressor. An indispensable accessory for efficient and long-lasting refrigeration systems, ensuring trouble-free performance in diverse cold room applications...
+Specs:
+  Desiccant Core: 100% 3Å Molecular Sieve (Moisture & Acid Removal)
+  Connections: ODS Solder / SAE Flare
+  Max Working Pressure: 45 bar (650 psi)
+  Refrigerants: All CFC, HCFC, and HFC Refrigerants
 InStock: Yes

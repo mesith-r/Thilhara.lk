@@ -1,24 +1,105 @@
 # Category: Valves
+
 [PRODUCT]
-Name: Danfoss TEV Thermostatic Expansion Valve T2/TE2
-Image: danfoss-tev-valve.jpg
-Brand: Danfoss
-Model: 068Z3400
-Description: World standard brass thermostatic expansion valve with interchangeable orifice assemblies for precise superheat control in cold rooms.
+Name: V Series Rotlock Valves
+Image: v_series_rotlock_valves.png
+Brand: Thilhara Genuine
+Model: TH-66
+Description: The V Series Rotlock Valves represent the pinnacle of engineering excellence and precision in the world of industrial valves. These innovative valves are designed to offer superior performance, reliability, and efficiency in a wide range of industrial applications.
 Specs:
-  Refrigerant: R404A / R507
-  Inlet: 3/8 in Flare
-  Outlet: 1/2 in Flare
-  Equalization: Internal
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
 InStock: Yes
 
 [PRODUCT]
-Name: Refrigeration Ball Valve with Access Port 5/8 inch
-Image: ball-valve-5-8.jpg
-Brand: Castel
-Model: 6570/5
-Description: Bi-directional full-bore brass ball valve with integrated Schrader service access port for leak-tight isolation during servicing.
+Name: Solenoid Valve
+Image: solenoid_valve.webp
+Brand: Thilhara Genuine
+Model: TH-54
+Description: Introducing our Solenoid Valve – the epitome of precision and efficiency in HVAC systems. Designed for optimal performance, this valve provides precise control over refrigerant flow, ensuring seamless temperature regulation in air conditioning and refrigeration units. Crafted with high-quality materials, it offers durability and resistance to corrosion and wear in diverse environments. Its versatile design suits various applications, from commercial cooling to residential HVAC systems. The solenoid operation enables rapid responses, facilitating on-demand refrigerant flow adjustments. Easy to install and maintain, our Solenoid Valve ensures energy-efficient operation, reducing consumption and enhancing overall system performance. Trust in its reliability for precise refrigerant control, ensuring optimal comfort and cooling in your air conditioning installations...
 Specs:
-  Connection: 5/8 in ODS
-  Working Pressure: 45 bar
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Solenoid Valve (ODF)
+Image: solenoid_valve_(odf).webp
+Brand: Thilhara Genuine
+Model: ODF
+Description: Introducing our Solenoid Valve (ODF) – the pinnacle of precision and reliability in HVAC systems. This valve ensures seamless regulation of refrigerant flow, guaranteeing precise temperature control in air conditioning and refrigeration units. Crafted with high-quality materials, it offers durability, resisting corrosion and wear in demanding environments. Easy-to-install O-ring sealed ODF connections provide a secure, leak-free seal. Its reliable solenoid operation allows quick responses and on-demand refrigerant flow adjustments. Suitable for various applications, our Solenoid Valve (ODF) enhances system performance, reduces energy consumption, and ensures optimal comfort in commercial and residential HVAC systems. Trust in its reliability for precise refrigerant control and efficient operation...
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Solenoid Valve (Flare)
+Image: solenoid_valve_(flare).webp
+Brand: Thilhara Genuine
+Model: Flare
+Description: Introducing our Solenoid Valve (Flare) – the pinnacle of precision control in HVAC systems. This valve ensures seamless regulation of refrigerant flow for precise temperature management in air conditioning and refrigeration units. Crafted for durability with high-quality materials, it resists corrosion and wear even in demanding environments. Easy-to-install flare connections provide a secure, leak-free seal. Its reliable solenoid operation allows quick responses and on-demand refrigerant flow adjustments. Suitable for various applications, our Solenoid Valve (Flare) enhances system performance, reduces energy consumption, and ensures optimal comfort in both commercial and residential HVAC systems. Trust in its reliability for precise refrigerant control and efficient operation...
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Magnetic Check Valve
+Image: magnetic_check_valve.png
+Brand: Thilhara Genuine
+Model: TH-39
+Description: Introducing our Air Condition Accessories Magnetic Check Valve – the key to efficient and reliable refrigerant flow control in HVAC systems. Crafted with precision, this valve ensures unidirectional refrigerant flow, preventing backflow and optimizing system performance. Its innovative magnetic design allows for a swift response to changes in flow direction, guaranteeing seamless operation in both heating and cooling cycles. The durable construction and corrosion-resistant materials ensure longevity, even in demanding environments. Easy to install, the Magnetic Check Valve enhances system efficiency, reduces energy consumption, and minimizes wear on components. Whether for residential or commercial applications, this valve is a crucial component for maintaining consistent airflow, maximizing cooling efficiency, and prolonging the life of your HVAC system. Trust in its reliability for superior performance in your air conditioning and refrigeration systems...
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Ball Valve ODS
+Image: ball_valve_ods.png
+Brand: Thilhara Genuine
+Model: TH-8
+Description: Introducing our Air Condition Accessories Ball Valve ODS – a testament to precision control and durability for HVAC systems. Engineered with O-ring stem seals, this valve guarantees leak-free operation and seamless regulation of refrigerant flow. Its Outer Diameter Solder (ODS) design simplifies installation, saving valuable technician time. Crafted from high-grade materials, it withstands high pressures and extreme temperatures, ensuring long-lasting performance in diverse conditions. The smooth quarter-turn operation allows precise control over your air conditioning system, making it ideal for residential, commercial, or industrial use. Trust our high-quality valve to enhance your HVAC system's performance, ensuring optimal cooling and heating capabilities for any space..
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Access Valves
+Image: access_valves.png
+Brand: Thilhara Genuine
+Model: TH-5
+Description: Introducing our Air Condition Accessories Access Valves – the pinnacle of reliability and convenience for HVAC systems. These valves, designed for effortless refrigerant access, ensure seamless serviceability and maintenance. Crafted from premium materials, they endure high pressures and extreme temperatures, guaranteeing longevity in demanding conditions. With a user-friendly design, technicians can quickly and securely connect these valves, facilitating efficient charging or recovery of refrigerants. Whether it's routine maintenance or system repairs, our Access Valves streamline the process, reducing downtime and enhancing operational efficiency. Their leak-free performance preserves cooling system integrity, preventing wastage and optimizing energy usage. Trust in our Air Condition Accessories Access Valves for superior functionality, simplifying HVAC servicing and ensuring peak system performance for years to come..
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
+InStock: Yes
+
+[PRODUCT]
+Name: Ball Valve
+Image: ball_valve.png
+Brand: Thilhara Genuine
+Model: TH-3
+Description: Introducing our Air Condition Accessories Ball Valve – the pinnacle of precision and control for cooling systems. Crafted from top-quality materials, this valve enables seamless regulation of refrigerant flow, ensuring peak performance and energy efficiency. Its sturdy build can withstand high pressures and extreme temperatures, offering unmatched durability in various conditions. With smooth quarter-turn operation, adjustments are quick and precise, allowing effortless fine-tuning of your air conditioning system. Ideal for residential, commercial, or industrial use, our Ball Valve guarantees reliable, leak-free performance, enhancing your cooling equipment's longevity. Its innovative design simplifies installation and maintenance, making it the top choice for HVAC professionals. Trust in our Air Condition Accessories Ball Valve for superior cooling control, maximizing efficiency and ensuring year-round comfort..
+Specs:
+  Body Material: Forged Brass / Cast Bronze
+  Seat Seal: PTFE Synthetic Polymer
+  Max Working Pressure: 45 bar (650 psi)
+  Connection: ODF Solder / ODS / SAE Flare
 InStock: Yes

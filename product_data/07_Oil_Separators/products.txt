@@ -1,12 +1,40 @@
 # Category: Oil Separators
+
 [PRODUCT]
-Name: Helical Mechanical Oil Separator 1/2 inch
-Image: oil-separator-helical.jpg
-Brand: Castel
-Model: 5520/4
-Description: High-efficiency centrifugal helical oil separator designed to extract compressor lubricating oil from discharge gas and return it safely to the compressor sump.
+Name: Oil Separator
+Image: oil_separator.jpg
+Brand: Thilhara Genuine
+Model: TH-46
+Description: Introducing our Oil Separator – a vital component for efficient lubrication and optimal performance in refrigeration systems. Crafted with precision, it effectively removes oil from the refrigerant, preventing compressor damage and ensuring smooth operation. With high-quality materials, it withstands extreme temperatures and pressure in cold storage. Its innovative design guarantees efficient oil separation without compromising refrigeration. Easy to install and maintain, this separator enhances system efficiency, reduces wear on components, and extends equipment life. It prevents oil buildup, ensuring reliable and efficient cold room operations, maximizing system performance and longevity. Trust our Oil Separator for seamless oil management in refrigeration systems...
 Specs:
-  Connections: 1/2 in ODS
-  Oil Return Connection: 1/4 in Flare
-  Max Working Pressure: 45 bar
+  Type: Centrifugal Helical Separation
+  Max Pressure: 45 bar
+  Oil Return: 1/4 in Flare with Stainless Steel Float Valve
+  Body Finish: Epoxy Powder Paint Anti-Rust Finish
+InStock: Yes
+
+[PRODUCT]
+Name: Oil Separator with Flange
+Image: oil_separator_with_flange.jpg
+Brand: Thilhara Genuine
+Model: TH-45
+Description: Introducing our Oil Separator with Flange – the solution for efficient oil management in refrigeration systems. Crafted with precision, it removes oil from the refrigerant, ensuring optimal lubrication for compressors. Engineered with a durable flange, it integrates easily into existing pipelines, simplifying installation. Its innovative design allows efficient oil separation without disrupting refrigeration. Withstand extreme temperatures and pressure fluctuations, enhancing efficiency, reducing wear on components, and extending equipment life. Trust our Oil Separator for seamless oil management, ensuring trouble-free operation in cold room systems...
+Specs:
+  Type: Centrifugal Helical Separation
+  Max Pressure: 45 bar
+  Oil Return: 1/4 in Flare with Stainless Steel Float Valve
+  Body Finish: Epoxy Powder Paint Anti-Rust Finish
+InStock: Yes
+
+[PRODUCT]
+Name: Mechanical Oil Level Regulator
+Image: mechanical_oil_level_regulator.jpg
+Brand: Thilhara Genuine
+Model: TH-41
+Description: Our Mechanical Oil Level Regulator is a reliable tool for your refrigeration systems. It maintains the right oil level, preventing damage and ensuring long-lasting efficiency. Made with durable materials, it works well in cold environments. It doesn't need electricity, reducing complications. Technicians can easily adjust it to fit the system's needs. Whether in freezers or coolers, it ensures smooth operations, protecting your equipment. Trust its accuracy and durability for top-notch performance...
+Specs:
+  Type: Centrifugal Helical Separation
+  Max Pressure: 45 bar
+  Oil Return: 1/4 in Flare with Stainless Steel Float Valve
+  Body Finish: Epoxy Powder Paint Anti-Rust Finish
 InStock: Yes

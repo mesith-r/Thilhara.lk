@@ -1,24 +1,85 @@
 # Category: Air Condition Accessories
+
 [PRODUCT]
-Name: Universal Wall Mounting AC Outdoor Bracket
-Image: ac-outdoor-bracket.jpg
-Brand: Thilhara Heavy Duty
-Model: BRK-450
-Description: Heavy-gauge galvanized steel bracket with anti-vibration rubber dampers designed for 9,000 to 24,000 BTU outdoor condenser units.
+Name: PVC Electrical Insulation Tape
+Image: pvc_electrical_insulation_tape.png
+Brand: Thilhara Genuine
+Model: TH-47
+Description: Introducing our PVC Electrical Insulation Tape – the ultimate solution for secure and insulated electrical connections in HVAC systems. Crafted with precision, this tape offers exceptional electrical insulation, protecting wires from moisture, heat, and corrosion. Its durable PVC material ensures flexibility and easy application on various surfaces. Ideal for air conditioning and refrigeration systems, it provides a reliable seal, minimizing the risk of short circuits and failures. Trust in our PVC Tape for safe and dependable electrical insulation in your HVAC installations...
 Specs:
-  Material: Powder Coated Galvanized Steel
-  Max Load Capacity: 180 kg
-  Compatibility: 9000 - 24000 BTU
-  Vibration Dampers: 4x Heavy Duty Rubber Isolators
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
 InStock: Yes
 
 [PRODUCT]
-Name: Flexible AC Drain Hose 16mm
-Image: ac-drain-hose.jpg
-Brand: Thilhara
-Model: DH-16MM
-Description: UV-resistant corrugated PVC flexible condensation water drain pipe for residential and commercial split air conditioning systems.
+Name: Male Connector
+Image: male_connector.png
+Brand: Thilhara Genuine
+Model: TH-40
+Description: Introducing our Cold Room Accessories Male Connector – the epitome of seamless and secure connections in refrigeration systems. Crafted with precision, this connector is engineered from high-quality materials, ensuring exceptional durability and corrosion resistance even in challenging environments. Its precisely threaded design guarantees a tight fit, preventing leaks and ensuring an airtight seal. The male connector simplifies the installation process, making it easy for technicians to create dependable connections between components. Its versatile design allows compatibility with various pipe sizes, offering flexibility in cold room configurations. Whether you're assembling a new cold storage facility or making repairs, our Male Connector ensures a hassle-free installation, saving time and effort for technicians. Trust in the quality and reliability of our connector for leak-free and efficient cold room operations, ensuring the integrity of your refrigeration system...
 Specs:
-  Internal Diameter: 16 mm
-  Material: Double-layer UV Polyethylene
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
+InStock: Yes
+
+[PRODUCT]
+Name: Insulation Tube
+Image: insulation_tube.png
+Brand: Thilhara Genuine
+Model: TH-38
+Description: Upgrade your HVAC system with our Air Condition Accessories Insulation Tubes – the ideal solution for energy-efficient and condensation-free installations. Crafted with high-quality materials, these insulation tubes provide superior thermal protection, preventing heat loss and ensuring optimal cooling efficiency. Their excellent insulation properties also prevent condensation buildup, eliminating the risk of water damage and mold growth. Designed for easy installation, these tubes fit snugly around pipes and ducts, minimizing installation time and effort. Whether for air conditioning, heating, or refrigeration systems, our Insulation Tubes enhance energy conservation, reduce operational costs, and create a comfortable indoor environment. Trust in the durability and insulation capabilities of our tubes for reliable, long-lasting, and energy-efficient HVAC installations...
+Specs:
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
+InStock: Yes
+
+[PRODUCT]
+Name: Female Connector
+Image: female_connector.png
+Brand: Thilhara Genuine
+Model: TH-28
+Description: Introducing our Cold Room Accessories Female Connector – the reliable solution for seamless and secure connections in refrigeration systems. Precision-crafted from high-quality materials, this connector ensures durability and corrosion resistance, even in harsh environments. Its precisely threaded design guarantees a tight fit, preventing leaks and ensuring an airtight seal. The female connector simplifies installation, allowing technicians to create dependable connections between components effortlessly. Compatible with various pipe sizes, it offers flexibility in cold room configurations. Whether assembling a new cold storage facility or making repairs, our Female Connector ensures hassle-free installations, saving time and effort. Trust in its quality and reliability for leak-free and efficient cold room operations, ensuring the integrity of your refrigeration system...
+Specs:
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
+InStock: Yes
+
+[PRODUCT]
+Name: Crock Tape
+Image: crock_tape.png
+Brand: Thilhara Genuine
+Model: TH-20
+Description: Introducing our Air Condition Accessories Tools and Equipment Crock Tape – the ultimate solution for sealing, protecting, and insulating in HVAC applications. Precision-crafted, this specialized tape withstands extreme temperatures and harsh environments, making it a must-have for HVAC professionals. Its unique crock pattern ensures a secure grip, creating airtight seals and preventing leaks. Highly flexible and easy to apply, Crock Tape adheres to irregular shapes and surfaces effortlessly. Whether sealing joints, insulating pipes, or protecting wiring, it delivers superior performance. An essential tool for HVAC technicians, Crock Tape provides durable and reliable solutions for air conditioning and refrigeration applications. Trust in our Crock Tape for efficient, long-lasting, and professional results...
+Specs:
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
+InStock: Yes
+
+[PRODUCT]
+Name: Capillary Tube with Nuts
+Image: capillary_tube_with_nuts.jpg
+Brand: Thilhara Genuine
+Model: TH-11
+Description: Upgrade your cold storage efficiency with our Cold Room Accessories Capillary Tube with Nuts. These precision-crafted tubes ensure optimal refrigerant flow, providing consistent and reliable cooling in your cold room. Built for durability, they withstand extreme temperatures and high pressures, guaranteeing longevity in challenging environments. The included nuts ensure secure connections, preventing leaks and maintaining airtight seals. Easy to install, these capillary tubes simplify the refrigeration system setup, saving time and effort for technicians. Whether setting up a new cold room or upgrading an existing one, our Capillary Tube with Nuts is essential for maintaining the desired temperature and preserving your products. Trust in the quality of our accessories to enhance your cold storage capabilities, ensuring your goods stay fresh and well-preserved...
+Specs:
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
+InStock: Yes
+
+[PRODUCT]
+Name: Air Conditioner Bracket Wall Bracket
+Image: air_conditioner_bracket_wall_bracket.jpg
+Brand: Thilhara Genuine
+Model: TH-6
+Description: Enhance your cooling system with our Air Condition Accessories Wall Bracket – a sturdy solution designed for stability and security. Made from heavy-duty materials, this bracket provides reliable support for air conditioner units, indoors or outdoors. Its rust-resistant coating ensures durability even in challenging weather. The innovative design simplifies installation, saving time and effort. Engineered for safety, it prevents accidental falls or damages to your AC unit, offering peace of mind and safeguarding your investment. This versatile bracket fits various AC sizes and models, making it suitable for residential and commercial use. Elevate your air conditioner's performance, reliability, and safety with our Wall Bracket, ensuring your unit stays securely in place for efficient, worry-free cooling..
+Specs:
+  Material: High Grade Engineering Polymer / Closed-Cell Foam
+  Application: Residential & Commercial Split / VRF Systems
+  Weather Resistance: UV Stabilized & Anti-Vibration
 InStock: Yes

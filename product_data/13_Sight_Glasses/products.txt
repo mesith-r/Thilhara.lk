@@ -1,12 +1,27 @@
 # Category: Sight Glasses
+
 [PRODUCT]
-Name: Moisture Liquid Indicator Sight Glass 3/8 Flare
-Image: sight-glass-3-8.jpg
-Brand: Danfoss
-Model: SGI 10
-Description: High visibility brass sight glass with sensitive chemical color indicator ring showing refrigerant moisture level (Green = Dry, Yellow = Wet).
+Name: FC Series Sight Glass (FC04CS)
+Image: fc_series_sight_glass_(fc04cs).png
+Brand: Thilhara Genuine
+Model: FC04CS
+Description: The FC Series Sight Glass (FC04CS) is a top-quality and versatile instrument that provides real-time visual insight into fluid systems, making it an essential component for professionals across various industries. This sight glass is known for its robust construction, precision, and reliability, allowing users to monitor and optimize fluid processes with confidence.
 Specs:
-  Connection: 3/8 in Flare Male-Female
-  Maximum Pressure: 35 bar
-  Indicator Type: Dual Color Moisture Ring
+  Body: Corrosion Resistant Brass
+  Indicator: Color Calibrated Moisture Indicator (Green: Dry, Yellow: Wet)
+  Connections: Male / Female Flare or ODS
+  Max Pressure: 45 bar
+InStock: Yes
+
+[PRODUCT]
+Name: FC Series Sight Glass (FC04CF)
+Image: fc_series_sight_glass_(fc04cf).png
+Brand: Thilhara Genuine
+Model: FC04CF
+Description: Introducing our Air Condition Accessories FC Series Sight Glass (FC04CF) – the vital component for monitoring refrigerant flow and system performance in HVAC installations. Crafted with precision, this sight glass offers a clear view of the refrigerant, enabling technicians to assess its condition and ensure proper levels. The FC04CF features a durable construction and a high-quality glass lens, guaranteeing longevity and resistance to pressure fluctuations. Its compact design makes installation seamless, fitting into refrigeration lines effortlessly. Equipped with moisture indicators, it aids in detecting potential issues like excess moisture in the system. Whether for residential cooling or commercial HVAC applications, the FC Series Sight Glass provides real-time insights, enabling efficient diagnostics and maintenance, ensuring your air conditioning system operates at peak efficiency...
+Specs:
+  Body: Corrosion Resistant Brass
+  Indicator: Color Calibrated Moisture Indicator (Green: Dry, Yellow: Wet)
+  Connections: Male / Female Flare or ODS
+  Max Pressure: 45 bar
 InStock: Yes

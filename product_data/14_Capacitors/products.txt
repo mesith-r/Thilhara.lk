@@ -1,13 +1,40 @@
 # Category: Capacitors
+
 [PRODUCT]
-Name: Dual Run Capacitor 45+5 uF 450V AC
-Image: capacitor-45-5.jpg
-Brand: Epcos / TDK
-Model: CAP-45-5-450
-Description: Round aluminum motor run capacitor for compressor and fan motor starting in residential split and packaged air conditioning units.
+Name: Ms Series Start Capacitor
+Image: ms_series_start_capacitor.jpg
+Brand: Thilhara Genuine
+Model: TH-42
+Description: Introducing our MS Series Start Capacitor – a reliable choice for HVAC systems. These capacitors ensure smooth motor activation with their exceptional performance. Made from high-quality materials, they withstand high temperatures and heavy loads, extending motor lifespan. Easy to install and essential for efficient cooling, these capacitors optimize energy usage. Whether for homes or businesses, trust our MS Series for trouble-free startup and consistent cooling...
 Specs:
-  Capacitance: 45 uF + 5 uF
-  Rated Voltage: 450V AC 50/60Hz
   Tolerance: ±5%
-  Safety Rating: 10,000 AFC Anti-Explosion
+  Voltage: 450V AC (50/60Hz)
+  Safety Class: P2 Flame Retardant Plastic / Aluminum Can
+  Operating Temp: -40°C to +85°C
+InStock: Yes
+
+[PRODUCT]
+Name: CBB Series Run Capacitor
+Image: cbb_series_run_capacitor.png
+Brand: Thilhara Genuine
+Model: TH-12
+Description: Introducing our Air Condition Accessories CBB Series Run Capacitor – the epitome of reliability and performance for HVAC systems. These capacitors provide a stable electrical charge, ensuring smooth operation and extended motor lifespan. Built with high-quality materials, they withstand high temperatures and heavy loads, offering consistent performance in demanding conditions. Their advanced design reduces energy consumption, enhancing system efficiency and lowering operational costs. Easy to install, they seamlessly integrate into your HVAC setup, boosting overall reliability and performance. Whether for residential or commercial use, our CBB Series Run Capacitors optimize system functionality, ensuring cool, comfortable environments with maximum energy efficiency. Upgrade your HVAC experience with these superior capacitors, providing dependable performance for years to come...
+Specs:
+  Tolerance: ±5%
+  Voltage: 450V AC (50/60Hz)
+  Safety Class: P2 Flame Retardant Plastic / Aluminum Can
+  Operating Temp: -40°C to +85°C
+InStock: Yes
+
+[PRODUCT]
+Name: BC Series Run Capacitors
+Image: bc_series_run_capacitors.jpg
+Brand: Thilhara Genuine
+Model: TH-9
+Description: Enhance your HVAC system's efficiency with our Air Condition Accessories BC Series Run Capacitors. These capacitors are engineered for superior performance, ensuring reliable operation of your air conditioner's motor. Built to handle high temperatures and heavy loads, they provide a stable electrical charge, boosting the motor's startup and running capabilities. Their durable construction and advanced materials guarantee longevity, even in demanding conditions. Easy to install, they seamlessly integrate into your system, enhancing its reliability and performance. Whether it's a residential unit or a commercial HVAC system, our BC Series Run Capacitors optimize energy usage, reduce wear and tear, and extend equipment lifespan. Upgrade your air conditioning experience with these high-quality capacitors, ensuring a cool, comfortable environment with maximum energy efficiency..
+Specs:
+  Tolerance: ±5%
+  Voltage: 450V AC (50/60Hz)
+  Safety Class: P2 Flame Retardant Plastic / Aluminum Can
+  Operating Temp: -40°C to +85°C
 InStock: Yes

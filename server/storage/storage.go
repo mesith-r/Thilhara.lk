@@ -2,6 +2,7 @@ package storage
 
 import (
 	"database/sql"
+	"encoding/json"
 	"fmt"
 	"log"
 	"os"
@@ -122,10 +123,14 @@ func (s *Storage) GetProducts(categorySlug, search string) []models.Product {
 	for _, p := range s.products {
 		if categorySlug != "" && categorySlug != "all" {
 			matched := false
-			for _, cat := range s.categories {
-				if cat.Slug == categorySlug && cat.Name == p.CategoryName {
-					matched = true
-					break
+			if p.CategorySlug == categorySlug || strings.Contains(p.CategorySlug, categorySlug) || strings.EqualFold(p.CategoryName, categorySlug) {
+				matched = true
+			} else {
+				for _, cat := range s.categories {
+					if cat.Slug == categorySlug && (cat.Name == p.CategoryName || cat.Slug == p.CategorySlug) {
+						matched = true
+						break
+					}
 				}
 			}
 			if !matched {
@@ -229,6 +234,23 @@ func getSeedCategories() []models.Category {
 }
 
 func getSeedProducts() []models.Product {
+	candidates := []string{
+		"data/products.json",
+		"server/data/products.json",
+		"../server/data/products.json",
+		"client/src/data/products.json",
+		"../client/src/data/products.json",
+	}
+	for _, path := range candidates {
+		if b, err := os.ReadFile(path); err == nil && len(b) > 0 {
+			var prods []models.Product
+			if err := json.Unmarshal(b, &prods); err == nil && len(prods) > 0 {
+				log.Printf("[Storage] Loaded %d products from %s", len(prods), path)
+				return prods
+			}
+		}
+	}
+
 	return []models.Product{
 		{
 			ID:           1,
