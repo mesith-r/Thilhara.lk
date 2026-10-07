@@ -1,23 +1,79 @@
 # Category: Copper Fitting
+
 [PRODUCT]
-Name: 90 Degree Copper Elbow 1/2 inch (Short & Long Radius)
-Image: copper-elbow-half-inch.jpg
-Brand: Mueller
-Model: ELB-90-12
-Description: Seamless deoxidized high residual phosphorus copper solder joint 90-degree bend for high pressure HVAC and refrigeration pipe lines.
+Name: Tee ccc
+Image: tee_ccc.png
+Brand: Thilhara Genuine
+Model: TH-58
+Description: Introducing our Copper Fitting Tee (CCC) – the key to efficient refrigeration systems. Crafted with precision from high-quality copper, this tee ensures seamless connections and optimal refrigerant flow in cold storage setups. Its durable design guarantees corrosion resistance, even in demanding environments. The tee configuration allows easy branching of refrigerant lines, accommodating versatile system setups. Leak-free seals ensure efficient heat exchange, promoting consistent cooling in cold rooms. Easy to install and compatible with various pipe sizes, our Copper Fitting Tee simplifies installations, saving time for technicians. Trust in its quality to enhance your refrigeration system, ensuring uninterrupted cooling and product freshness...
 Specs:
-  Nominal Size: 1/2 in ODS
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
   Standard: ASME B16.22 / EN 1254-1
-  Material: UNS C12200 Pure Copper
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
 InStock: Yes
 
 [PRODUCT]
-Name: Refrigeration Copper Equal Tee 5/8 inch
-Image: copper-tee-5-8.jpg
-Brand: Mueller
-Model: TEE-58
-Description: High quality seamless brazing copper equal tee for balanced refrigerant liquid and suction line distribution.
+Name: Return Bend cc
+Image: return_bend_cc.png
+Brand: Thilhara Genuine
+Model: TH-49
+Description: Introducing our Return Bend (CC) – the crucial component for efficient refrigerant flow redirection in cold storage systems. Engineered for precision, it ensures seamless cooling circulation, preventing pressure drops and maintaining optimal performance. Made from durable materials, it withstands extreme temperatures, ideal for cold room applications. Its precisely bent design promotes smooth refrigerant flow, ensuring consistent temperatures. Easy to install, it enhances system efficiency, reduces energy consumption, and prolongs equipment life. Trust in its reliability for uninterrupted cooling, maximizing the performance and longevity of your refrigeration systems...
 Specs:
-  Nominal Size: 5/8 in ODS (All Ends)
-  Operating Pressure: Up to 50 bar
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
+  Standard: ASME B16.22 / EN 1254-1
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
+InStock: Yes
+
+[PRODUCT]
+Name: Fitting Reducer ftg
+Image: fitting_reducer_ftg.png
+Brand: Thilhara Genuine
+Model: TH-32
+Description: Introducing our Cold Room Accessories Copper Fitting Reducer (FTG) – the essential component for seamless and reliable connections in refrigeration systems. Crafted with precision from high-quality copper, this reducer ensures exceptional durability and corrosion resistance, even in demanding environments. Its precisely threaded design guarantees a secure fit, preventing leaks and ensuring an airtight seal. The FTG Copper Fitting Reducer simplifies the installation process, allowing for smooth transitions between pipes of different sizes. Whether setting up a new cold room or making adjustments to an existing system, this reducer ensures a hassle-free installation, saving time and effort for technicians. Trust in the quality and dependability of our Copper Fitting Reducer for leak-free and efficient cold room operations, ensuring the integrity of your refrigeration system...
+Specs:
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
+  Standard: ASME B16.22 / EN 1254-1
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
+InStock: Yes
+
+[PRODUCT]
+Name: Elbow
+Image: elbow.png
+Brand: Thilhara Genuine
+Model: TH-26
+Description: Introducing our Cold Room Accessories Copper Fitting Elbow – the key to secure and leak-free connections in refrigeration systems. Precision-crafted from high-quality copper, these elbows ensure exceptional durability and corrosion resistance. Their seamless design provides a tight seal, preventing refrigerant leaks and preserving the integrity of your cold room installation. Easy to install and compatible with various pipe sizes, these copper fitting elbows simplify the setup process, saving time and effort. Their robust construction and reliable performance make them indispensable components for ensuring the efficiency and longevity of your refrigeration system. Trust in our Copper Fitting Elbows for seamless connections, optimal refrigerant flow, and peace of mind in your cold storage solutions...
+Specs:
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
+  Standard: ASME B16.22 / EN 1254-1
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
+InStock: Yes
+
+[PRODUCT]
+Name: Coupling with Roll-stop
+Image: coupling_with_roll-stop.png
+Brand: Thilhara Genuine
+Model: TH-19
+Description: Introducing our Cold Room Accessories Coupling with Roll-stop – the pinnacle of stability and seamless connections in cold room installations. Precision-engineered, this coupling ensures secure joints between cold room panels. Its innovative roll-stop feature prevents disengagement, providing added safety and durability. Crafted from high-quality materials, it withstands extreme temperatures, ensuring longevity in harsh environments. Easy to install, it simplifies construction, saving time and labor costs. The precision fit enhances insulation and maintains an airtight seal, ensuring efficient temperature control. Whether for industrial storage or commercial refrigeration, our Coupling with Roll-stop is essential for preserving cold room integrity, maximizing energy efficiency, and product preservation...
+Specs:
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
+  Standard: ASME B16.22 / EN 1254-1
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
+InStock: Yes
+
+[PRODUCT]
+Name: Cap Tube End
+Image: cap_tube_end.png
+Brand: Thilhara Genuine
+Model: TH-10
+Description: Introducing our Air Condition Accessories Cap Tube End – the epitome of precision and reliability in refrigeration systems. These tube ends are meticulously crafted to ensure secure sealing and protection for capillary tubes, preventing leaks and contamination. Built from durable materials, they withstand high pressures and extreme temperatures, guaranteeing long-lasting performance in challenging environments. The easy-to-install design simplifies the connection process, saving valuable time during system assembly or repairs. Whether you're a technician or a DIY enthusiast, our Cap Tube Ends offer a hassle-free solution for sealing and securing capillary tubes in air conditioning and refrigeration systems. Trust in the quality and durability of our accessories to maintain the integrity of your HVAC systems, ensuring efficient and reliable operation for years to come..
+Specs:
+  Material: High Purity Deoxidized Copper (Cu-DHP 99.9%)
+  Standard: ASME B16.22 / EN 1254-1
+  Connection: Sweat / Solder ODS
+  Working Pressure: Up to 45 bar (High Pressure Compatible)
 InStock: Yes

@@ -1,13 +1,40 @@
 # Category: Reciever
+
 [PRODUCT]
-Name: Vertical Liquid Refrigerant Receiver 4.5L
-Image: liquid-receiver-4-5l.jpg
-Brand: Castel
-Model: 7810/3
-Description: Steel welded vertical liquid receiver with dual rotalock valve connections and fusible plug port for refrigeration condensing units.
+Name: Suction Accumulator
+Image: suction_accumulator.jpg
+Brand: Thilhara Genuine
+Model: TH-57
+Description: Introducing our Suction Accumulator – essential for efficient refrigeration in cold storage. Engineered for precision, it stabilizes refrigerant flow, preventing liquid entry into the compressor. Crafted from high-quality materials, it ensures durability and reliability under varying temperatures. Effectively separating liquid from gas, it optimizes compressor performance, preventing damage. Easy to install and maintain, it simplifies refrigeration, enhancing equipment efficiency. Trust in its dependable performance to preserve product freshness, reduce component wear, and extend your system's lifespan...
 Specs:
-  Volume Capacity: 4.5 Liters
-  Inlet Connection: 1/2 in ODS Rotalock
-  Outlet Connection: 3/8 in ODS Rotalock
-  Max Working Pressure: 33 bar
+  Max Working Pressure: 33 bar (480 psi)
+  Shell Material: Carbon Steel with Corrosion-Resistant Finish
+  Inlet/Outlet Connections: Rotolock / Sweat ODS
+  Standard: CE / UL / ISO9001 Certified
+InStock: Yes
+
+[PRODUCT]
+Name: Refrigerant Heat Exchanger Suction accumulator
+Image: refrigerant_heat_exchanger_suction_accumulator.png
+Brand: Thilhara Genuine
+Model: TH-48
+Description: Introducing our Refrigerant Heat Exchanger Suction Accumulator – the key to efficient refrigeration systems. Crafted for precision, this accumulator maintains optimal suction pressure and prevents liquid refrigerant from entering the compressor. Made from high-quality materials, it ensures reliable operation in cold storage, enhancing system efficiency. Its heat exchanger design promotes energy efficiency and consistent cooling. Compact and easy to install, it's essential for commercial freezers and walk-in coolers. Trust in our Suction Accumulator for efficient heat removal, ensuring the longevity of your cold room equipment and preserving product freshness...
+Specs:
+  Max Working Pressure: 33 bar (480 psi)
+  Shell Material: Carbon Steel with Corrosion-Resistant Finish
+  Inlet/Outlet Connections: Rotolock / Sweat ODS
+  Standard: CE / UL / ISO9001 Certified
+InStock: Yes
+
+[PRODUCT]
+Name: Oil Reservoir
+Image: oil_reservoir.webp
+Brand: Thilhara Genuine
+Model: TH-44
+Description: Introducing our Oil Reservoir – ensuring efficient lubrication in refrigeration systems. Crafted for precision, it provides constant oil supply to critical components, optimizing performance and longevity. Made from high-quality materials, it withstands extreme temperatures and corrosive environments. Its design prevents overflow and contamination, maintaining system integrity. Easy to install and maintain, it simplifies the lubrication process, saving time and effort. Trust our Oil Reservoir for smooth operation, reduced wear, and prolonged equipment life in cold storage facilities...
+Specs:
+  Max Working Pressure: 33 bar (480 psi)
+  Shell Material: Carbon Steel with Corrosion-Resistant Finish
+  Inlet/Outlet Connections: Rotolock / Sweat ODS
+  Standard: CE / UL / ISO9001 Certified
 InStock: Yes

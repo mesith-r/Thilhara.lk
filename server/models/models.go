@@ -14,9 +14,11 @@ type Product struct {
 	ID           int               `json:"id"`
 	Name         string            `json:"name"`
 	Slug         string            `json:"slug"`
-	CategoryID   int               `json:"categoryId"`
-	CategoryName string            `json:"categoryName"`
-	Brand        string            `json:"brand"`
+	CategoryID    int               `json:"categoryId"`
+	CategoryName  string            `json:"categoryName"`
+	CategorySlug  string            `json:"categorySlug,omitempty"`
+	CategoryGroup string            `json:"categoryGroup,omitempty"`
+	Brand         string            `json:"brand"`
 	Model        string            `json:"model"`
 	Description  string            `json:"description"`
 	Specs        map[string]string `json:"specs"`

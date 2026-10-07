@@ -1,24 +1,222 @@
 # Category: Cold Room Accessories
+
 [PRODUCT]
-Name: Heavy Duty Cold Room Safety Door Latch
-Image: coldroom-door-latch.jpg
-Brand: Fermod
-Model: 921-HP
-Description: Ergonomic heavy-duty cold room latch with inside glowing safety push-release handle to prevent accidental entrapment inside walk-in freezers.
+Name: Thd Series Evaporator
+Image: thd_series_evaporator.png
+Brand: Thilhara Genuine
+Model: TH-90
+Description: The "THD Series Evaporator" is an essential and highly efficient component used in a variety of cooling and refrigeration applications. As a fundamental part of refrigeration systems, the THD Series Evaporator is designed to efficiently absorb heat from its surroundings, playing a crucial role in maintaining precise temperature control in diverse settings.
 Specs:
-  Material: High Pressure Die-Cast Chrome Finish
-  Safety Release: Internal Glow-in-the-dark Push Rod
-  Temperature Range: -40°C to +60°C
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
 InStock: Yes
 
 [PRODUCT]
-Name: Cold Room PVC Strip Curtain Strip (200mm x 2mm)
-Image: pvc-strip-curtain.jpg
-Brand: Thilhara Polar
-Model: PVC-POLAR-200
-Description: Polar grade flexible clear PVC strip roll designed to prevent thermal loss in walk-in freezers, cold stores, and blast chillers.
+Name: TFE Series Evaporator
+Image: tfe_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-89
+Description: The "TFE Series Evaporator" is a versatile and highly efficient component used in various cooling and refrigeration applications. As an integral part of refrigeration systems, the TFE Series Evaporator is designed to efficiently absorb heat from its surroundings, contributing to the maintenance of precise temperature control in diverse settings.
 Specs:
-  Width: 200 mm
-  Thickness: 2 mm
-  Temperature Rating: Down to -35°C
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Tem Series Evaporator
+Image: tem_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-88
+Description: The "TEM Series Evaporator" is a highly efficient and versatile component used in a variety of cooling and refrigeration applications. As a fundamental part of refrigeration systems, the TEM Series Evaporator is designed to efficiently absorb heat from its surroundings, playing a crucial role in maintaining precise temperature control in various settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Tek Series Evaporator
+Image: tek_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-87
+Description: The "TEK Series Evaporator" is a highly efficient and versatile component used in a variety of cooling and refrigeration applications. As a fundamental part of refrigeration systems, the TEK Series Evaporator is designed to efficiently absorb heat from its surroundings, playing a crucial role in maintaining precise temperature control in various settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Teh Series Evaporator
+Image: teh_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-86
+Description: The "TEH Series Evaporator" is a versatile and highly efficient component used in a wide range of cooling and refrigeration applications. As an integral part of refrigeration systems, the TEH Series Evaporator is designed to efficiently absorb heat from its surroundings, playing a crucial role in maintaining temperature control in diverse settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Ted Series Evaporator
+Image: ted_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-85
+Description: The "TED Series Evaporator" is a highly efficient and versatile component used in a variety of cooling and refrigeration applications. As an essential part of refrigeration systems, the TED Series Evaporator is designed to efficiently absorb heat from its surroundings, playing a crucial role in maintaining precise temperature control in diverse settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Tec Series Evaporator
+Image: tec_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-84
+Description: The "TEC Series Evaporator" is a versatile and highly efficient component used in a variety of cooling and refrigeration applications. As an integral part of refrigeration systems, the TEC Series Evaporator is designed to absorb heat from its surroundings, playing a crucial role in maintaining temperature control in diverse settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Teb Series Evaporator
+Image: teb_series_evaporator.jpg
+Brand: Thilhara Genuine
+Model: TH-83
+Description: The "TEB Series Evaporator" is a versatile and efficient component used in a wide range of cooling and refrigeration applications. As an essential part of refrigeration systems, the TEB Series Evaporator is designed to efficiently absorb heat from its surroundings, making it a key tool for maintaining temperature control in various settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Ta series Evaporator
+Image: ta_series_evaporator.png
+Brand: Thilhara Genuine
+Model: TH-82
+Description: The "TA Series Evaporator" is a highly efficient and versatile component designed for use in various cooling and refrigeration applications. As an integral part of refrigeration systems, the TA Series Evaporator is engineered to efficiently absorb heat from its surroundings, making it an essential tool for maintaining temperature control in diverse settings.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Package Top Blowing
+Image: package_top_blowing.jpg
+Brand: Thilhara Genuine
+Model: TH-81
+Description: "Package Top Blowing" refers to a versatile and efficient industrial system used primarily for the melting and refining of metals, particularly in foundries and metalworking industries. This package system, characterized by its top-blowing technology, enhances the melting and refining processes, ensuring high performance and precision.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Package  Copeland
+Image: package_copeland.jpg
+Brand: Copeland
+Model: TH-80
+Description: The "Package Copeland" refers to a comprehensive and highly efficient package system that incorporates Copeland compressors, renowned for their reliability and performance. These package units are designed to meet a wide range of cooling and refrigeration needs, providing a complete and integrated solution for various applications.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Fnv type condenser
+Image: fnv_type_condenser.jpg
+Brand: Thilhara Genuine
+Model: TH-79
+Description: Fnv type condenser
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Fn type condencer
+Image: fn_type_condencer.jpg
+Brand: Thilhara Genuine
+Model: TH-78
+Description: The "Fn Type Condenser" is an essential component of refrigeration and air conditioning systems, playing a vital role in the heat exchange process that facilitates the cooling of various applications. With its efficient design and high performance, the Fn Type Condenser is trusted for its ability to maintain temperature and ensure the proper functioning of cooling systems.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Ev Series Evaporstor
+Image: ev_series_evaporstor.jpg
+Brand: Thilhara Genuine
+Model: TH-77
+Description: The "EV Series Evaporator" is an essential component in the realm of refrigeration and air conditioning systems, designed to facilitate the cooling process by absorbing heat from its surroundings and maintaining a controlled environment. With its efficient and innovative design, the EV Series Evaporator is a trusted solution for a wide range of applications, ensuring optimal cooling performance.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Acv typecondencer
+Image: acv_typecondencer.jpg
+Brand: Thilhara Genuine
+Model: TH-76
+Description: Condenser is an integral part of the cooling and refrigeration process, contributing to the efficiency and effectiveness of these systems. Its compact design, durability, and ability to dissipate heat make it a valuable asset in various applications where temperature control and environmental conditions are critical.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Dz Type Condenzer
+Image: dz_type_condenzer.jpg
+Brand: Thilhara Genuine
+Model: TH-70
+Description: Is an essential component of refrigeration and air conditioning systems, playing a vital role in the heat exchange process that facilitates the cooling of various applications. With its efficient design and high performance, the Fn Type Condenser is trusted for its ability to maintain temperature and ensure the proper functioning of cooling systems.
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
+InStock: Yes
+
+[PRODUCT]
+Name: Cold Room
+Image: cold_room.jpg
+Brand: Thilhara Genuine
+Model: TH-14
+Description: Boost your cold storage efficiency with our Cold Room Accessories, meticulously designed to optimize your Cold Room's functionality. Engineered for precision, these accessories create a consistent and controlled environment for perishable goods. From specialized shelving systems to energy-efficient LED lighting, our accessories enhance organization, visibility, and accessibility within your Cold Room. Advanced temperature and humidity control units guarantee perfect storage conditions, preserving freshness. Easy to install and maintain, these accessories are tailored to fit your Cold Room specifications, maximizing space and minimizing energy consumption. Upgrade your cold storage facility with our top-notch accessories, ensuring peak product quality and streamlining your operational processes...
+Specs:
+  Application: Walk-in Chillers, Freezers & Food Storage Facilities
+  Refrigerant Compatibility: R404A / R507 / R22 / R448A
+  Casing: Powder-Coated Anti-Corrosive Heavy Aluminum Alloy
+  Defrost Type: Electric Heating Elements / Air Defrost
 InStock: Yes

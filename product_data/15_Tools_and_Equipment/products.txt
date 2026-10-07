@@ -1,24 +1,235 @@
 # Category: Tools and Equipment
+
 [PRODUCT]
-Name: Refco Digital Smart Manifold Gauge Set 4-Way
-Image: refco-digital-manifold.jpg
-Brand: Refco Swiss
-Model: REFMATE-4
-Description: Swiss-crafted 4-way wireless digital manifold system featuring high-precision pressure transducers, micron vacuum sensor, and temperature clamps.
+Name: Tubbing Tool Kit (FC999)
+Image: tubbing_tool_kit_(fc999).png
+Brand: Thilhara Genuine
+Model: FC999
+Description: The Tubing Tool Kit (FC999) is a comprehensive and high-quality set of tools designed to meet the diverse needs of professionals in the plumbing, HVAC, and tubing industries. This versatile kit offers a solution for a wide range of tubing applications, making it an essential asset for both seasoned technicians and DIY enthusiasts.
 Specs:
-  Display: 4.3 in High-Res Color Screen
-  Pressure Range: -1 to 60 bar
-  Accuracy: Class 0.5
-  Wireless Range: Up to 100 meters Bluetooth
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
 InStock: Yes
 
 [PRODUCT]
-Name: Heavy Duty Eccentric Cone Flaring Tool Set
-Image: flaring-tool-set.jpg
-Brand: Value
-Model: VFT-808-MIS
-Description: Precision eccentric flaring tool with ratchet clutch mechanism for producing clean 45-degree gas-tight flares on copper tubing.
+Name: Tubbing Tool Kit (FC808)
+Image: tubbing_tool_kit_(fc808).jpg
+Brand: Thilhara Genuine
+Model: FC808
+Description: The Tubing Tool Kit (FC808) is a comprehensive and top-quality set of tools designed to cater to the diverse needs of professionals in the plumbing, HVAC, and tubing industries. Whether you're an experienced technician or a DIY enthusiast, this kit offers a versatile solution for a wide range of tubing applications.
 Specs:
-  Tube Sizes: 1/4, 5/16, 3/8, 1/2, 5/8, 3/4 inch
-  Material: Hardened Alloy Steel
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Tubbing Tool Kit (FC806A)
+Image: tubbing_tool_kit_(fc806a).png
+Brand: Thilhara Genuine
+Model: FC806A
+Description: The Tubing Tool Kit (FC806A) is a comprehensive and high-quality set of tools designed to cater to the diverse needs of professionals in the plumbing, HVAC, and tubing industries. Whether you are a seasoned technician or a DIY enthusiast, this kit offers a versatile solution for a wide range of tubing applications.
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Tubbing Tool Kit (FC300)
+Image: tubbing_tool_kit_(fc300).jpg
+Brand: Thilhara Genuine
+Model: FC300
+Description: The Tubing Tool Kit (FC300) is a professional-grade and versatile set of tools designed to meet the specific needs of plumbing, HVAC, and general tubing applications. Crafted with precision and durability in mind, this comprehensive kit is an indispensable asset for both experienced tradespeople and do-it-yourself enthusiasts.
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Tubbing Tool Kit (FC278L)
+Image: tubbing_tool_kit_(fc278l).png
+Brand: Thilhara Genuine
+Model: FC278L
+Description: The Tubing Tool Kit (FC278L) is a comprehensive and versatile set of tools designed for professionals in the plumbing and tubing industry. This kit is a must-have for anyone involved in the installation, maintenance, or repair of tubing systems, making it an essential asset for both experienced technicians and DIY enthusiasts.
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Tubbing Tool Kit (FC275L)
+Image: tubbing_tool_kit_(fc275l).png
+Brand: Thilhara Genuine
+Model: FC275L
+Description: Introducing our Tubing Tool Kit (FC275L) – the ultimate choice for HVAC professionals and enthusiasts seeking precision and efficiency. This kit features a high-quality tube cutter for smooth, accurate cuts, and a versatile flaring tool designed for perfect 45-degree flares on copper, aluminum, and brass tubes. These ergonomic tools ensure comfortable use and long-lasting performance, making them essential for leak-free connections in air conditioning and refrigeration systems. Whether you're a seasoned technician or a DIY enthusiast, this kit provides the necessary tools for professional-grade tubing work, making it a valuable addition to your HVAC toolkit...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Tubbing Tool Kit (FC100)
+Image: tubbing_tool_kit_(fc100).png
+Brand: Thilhara Genuine
+Model: FC100
+Description: Introducing our Tubing Tool Kit (FC100) – the ultimate solution for HVAC tasks. This kit ensures precise cuts and flawless flares for copper, aluminum, and brass tubes. It includes a high-quality tube cutter for clean cuts and a precision flaring tool for perfect 45-degree flares, crucial for leak-free connections in air conditioning and refrigeration systems. Durable and designed for heavy use, this kit is ideal for both residential and commercial applications. With the FC100 Tubing Tool Kit, you're equipped with essential tools for professional-grade tubing work and superior results in every HVAC project...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Flaring Tools
+Image: flaring_tools.png
+Brand: Thilhara Genuine
+Model: TH-35
+Description: Introducing our Air Condition Accessories Flaring Tools – the epitome of precision tube installations in HVAC systems. Engineered for accuracy, these tools ensure flawless 45-degree flares on copper, aluminum, and brass tubing, facilitating seamless connections. Crafted from high-quality materials, they offer durability and longevity, making them reliable companions for professional technicians and DIY enthusiasts alike. The ergonomic design ensures comfort and ease of use, even in tight spaces, enhancing user efficiency. Suitable for various tube sizes, our flaring tools provide unmatched flexibility for different HVAC projects. Whether you're installing air conditioning systems or working on refrigeration projects, these tools guarantee professional-grade flares, enabling secure and leak-free connections. Elevate your HVAC installations with our superior Flaring Tools, ensuring optimal performance and reliability in every connection...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Flaring & Swaging Tool (FC195)
+Image: flaring_&_swaging_tool_(fc195).jpeg
+Brand: Thilhara Genuine
+Model: FC195
+Description: Introducing our Air Condition Accessories Flaring & Swaging Tool (FC195) – the pinnacle of precision and efficiency in HVAC tube preparations. Engineered for professionals, this versatile tool effortlessly creates flawless 45-degree flares and precise swages on copper, aluminum, and brass tubing. Its rugged construction and precision machining ensure consistent, leak-free connections every time, minimizing the risk of refrigerant leaks and system inefficiencies. The FC195 features a comfortable grip, providing precise control and ease of use, even in tight spaces. Suitable for various tube sizes, it offers unmatched flexibility for different HVAC projects. Whether you're a seasoned technician or a DIY enthusiast, this tool guarantees professional-grade flaring and swaging, making it a vital addition to your toolkit for reliable and efficient tube connections in air conditioning and refrigeration systems...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Flaring & Swaging Tool (FC193)
+Image: flaring_&_swaging_tool_(fc193).jpeg
+Brand: Thilhara Genuine
+Model: FC193
+Description: Introducing our Air Condition Accessories Flaring & Swaging Tool (FC193) – the ultimate tool for precise tube flaring and swaging in HVAC applications. Engineered for professionals, this versatile tool effortlessly creates perfect 45-degree flares and precise swages on copper, aluminum, and brass tubing. Its durable construction and precision machining ensure smooth and consistent results every time. The FC193 tool features a unique handle design for comfortable grip and control, making it easy to use even in tight spaces. Suitable for a range of tube sizes, it offers exceptional flexibility for various HVAC projects. Whether you're a seasoned technician or a DIY enthusiast, this tool ensures professional-grade flaring and swaging, making it an essential addition to your HVAC toolkit for reliable and efficient tube connections...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Fin Straightener (FC368180)
+Image: fin_straightener_(fc368180).png
+Brand: Thilhara Genuine
+Model: FC368180
+Description: Introducing our Air Condition Accessories Fin Straightener (FC368180) – the pinnacle of precision and efficiency in HVAC maintenance. Meticulously crafted, this fin straightener is designed to restore bent or damaged fins on air conditioning and refrigeration coils. Its durable construction and precisely aligned teeth ensure safe and accurate straightening without causing harm to delicate fins. The FC368180 features an ergonomic grip, providing comfort and control, allowing technicians to navigate through tight spaces effortlessly. By straightening fins, this tool optimizes airflow, enhancing the system's heat exchange efficiency and reducing energy consumption. It's a must-have for maintaining consistent cooling performance, prolonging equipment lifespan, and achieving significant energy savings. Trust FC368180 for meticulous fin straightening, ensuring your HVAC systems operate at their peak efficiency...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Fin Straightener (FC368)
+Image: fin_straightener_(fc368).png
+Brand: Thilhara Genuine
+Model: FC368
+Description: Introducing our Air Condition Accessories Fin Straightener (FC368) – the professional’s choice for precision and efficiency in HVAC maintenance. Engineered for perfection, this fin straightener is designed to effortlessly restore bent or damaged fins on air conditioning and refrigeration coils. Its durable construction and precisely aligned teeth ensure safe and accurate straightening without causing further damage to delicate fins. The ergonomic grip provides comfort and control during use, allowing technicians to navigate through tight spaces with ease. By straightening bent fins, FC368 optimizes airflow, enhancing the system's heat exchange efficiency, and reducing energy consumption. This essential tool guarantees improved cooling performance, prolonged equipment life, and significant energy savings. Trust FC368 for meticulous fin straightening, ensuring your HVAC systems operate at peak efficiency...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Fin Straightener (FC364M)
+Image: fin_straightener_(fc364m).jpeg
+Brand: Thilhara Genuine
+Model: FC364M
+Description: Introducing our Air Condition Accessories Fin Straightener (FC364M) – the ultimate tool for HVAC professionals to maintain optimal cooling efficiency. Crafted with precision, this fin straightener is designed to restore bent fins on air conditioning and refrigeration coils. Its sturdy metal construction and meticulously aligned teeth ensure accurate straightening without damaging delicate fins. The FC364M Straightener features a comfortable grip, allowing technicians to easily maneuver it through tight spaces. By straightening bent fins, airflow is restored, maximizing the efficiency of the cooling system and reducing energy consumption. This tool is essential for improving heat exchange and extending the lifespan of your air conditioner. Trust in FC364M to enhance your HVAC efficiency, ensuring consistent cooling performance and lower operational costs...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Cutter (PTC01)
+Image: cutter_(ptc01).webp
+Brand: Thilhara Genuine
+Model: PTC01
+Description: Introducing our Air Condition Accessories Tools and Equipment Cutter (PTC01) – a pinnacle of precision and versatility for HVAC professionals. Engineered for excellence, this cutter effortlessly handles various materials, including copper, aluminum, and plastic tubing. Its sharp, durable blade ensures clean and accurate cuts, streamlining installation processes. The ergonomic design provides a comfortable grip, reducing hand fatigue during extended use. Featuring a quick-change system, the PTC01 Cutter allows swift blade replacements, ensuring uninterrupted workflow on the job. Whether you're working on air conditioning installations or refrigeration projects, this cutter offers exceptional performance and reliability. Its lightweight yet sturdy construction makes it an essential tool in your HVAC toolkit, guaranteeing smooth and professional cuts every time. Trust in the precision of PTC01 for superior results in your projects...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Cutter (FC312)
+Image: cutter_(fc312).jpg
+Brand: Thilhara Genuine
+Model: FC312
+Description: Introducing our Air Condition Accessories Tools and Equipment Cutter (FC312) – the ultimate tool for precision and efficiency in HVAC installations. This professional-grade cutter is engineered to handle various materials effortlessly, including copper, aluminum pipes, and plastic tubing. Its sharp, hardened steel blade guarantees clean and accurate cuts, reducing installation time and effort. The ergonomic handle provides a comfortable grip, enhancing control and reducing hand fatigue during prolonged use. With a quick-change mechanism, the FC312 Cutter allows swift blade replacement, ensuring uninterrupted workflow. Whether you're a seasoned HVAC technician or a DIY enthusiast, this cutter is your reliable partner for smooth and professional cuts in air conditioning and refrigeration projects. Upgrade your toolkit with FC312 for superior performance and exceptional results...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Cutter (FC274)
+Image: cutter_(fc274).jpg
+Brand: Thilhara Genuine
+Model: FC274
+Description: Introducing our Air Condition Accessories Tools and Equipment Cutter (FC274) – the pinnacle of precision and durability designed specifically for HVAC professionals. This cutter, crafted with precision engineering, effortlessly handles various materials, including copper pipes, plastic tubing, and aluminum. Its sharp, hardened steel blade ensures clean and accurate cuts, enhancing efficiency and professionalism on every job. The ergonomic handle provides a comfortable grip, reducing hand fatigue during extended use. Equipped with a quick-change feature, the FC274 Cutter allows swift blade replacement, maximizing productivity on the field. Whether installing air conditioning systems or working on refrigeration projects, this cutter is your reliable companion, delivering flawless cuts and exceptional results. Trust FC274 for top-notch performance and unmatched reliability in every application...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Cutter (FC174)
+Image: cutter_(fc174).png
+Brand: Thilhara Genuine
+Model: FC174
+Description: Introducing our Air Condition Accessories Tools and Equipment Cutter (FC174) – the epitome of precision and efficiency in HVAC installations. This professional-grade cutter offers unmatched durability and versatility, making it ideal for various applications. Its sharp, hardened steel blade effortlessly slices through copper pipes, plastic tubing, and other materials, ensuring clean and precise cuts every time. The ergonomic handle provides a comfortable grip, reducing hand fatigue and enhancing control during operation. Equipped with a quick-change mechanism, the FC174 Cutter allows swift blade replacement, saving valuable time on the job. Whether you're a seasoned HVAC technician or a DIY enthusiast, this cutter is a reliable companion for your air conditioning and refrigeration projects, delivering accurate cuts and professional results...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
+InStock: Yes
+
+[PRODUCT]
+Name: Cutter (FC127)
+Image: cutter_(fc127).png
+Brand: Thilhara Genuine
+Model: FC127
+Description: Introducing our Air Condition Accessories Tools and Equipment Cutter (FC127) – the ultimate solution for precise and effortless cutting in HVAC installations. Precision-engineered, this cutter tackles various materials effortlessly, from copper pipes to plastic tubing. Its sharp, durable blade ensures clean and accurate cuts, saving time and effort. The ergonomic handle provides a comfortable grip, enhancing control and reducing hand fatigue. Whether you're a professional HVAC technician or a DIY enthusiast, the FC127 Cutter is your go-to tool for quick and efficient pipe preparation. Its versatility and reliability make it an essential addition to your toolkit, guaranteeing smooth and professional results in air conditioning and refrigeration projects...
+Specs:
+  Material: Hardened Chrome Vanadium Alloy Steel
+  Application: HVAC & Refrigeration Pipework / Tubing
+  Coating: Corrosion Resistant Chrome Finish
+  Packaging: Heavy-Duty Blow Mold Case
 InStock: Yes

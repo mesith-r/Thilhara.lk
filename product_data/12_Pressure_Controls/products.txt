@@ -1,13 +1,14 @@
 # Category: Pressure Controls
+
 [PRODUCT]
-Name: Danfoss KP15 Dual Low and High Pressure Switch
-Image: danfoss-kp15.jpg
-Brand: Danfoss
-Model: 060-126466
-Description: Industry benchmark dual pressure control providing comprehensive low-pressure cycling and high-pressure safety cutout for compressors.
+Name: HLP Series Pressure Controller (HLP830HLM)
+Image: hlp_series_pressure_controller_(hlp830hlm).jpg
+Brand: Thilhara Genuine
+Model: HLP830HLM
+Description: Introducing our Air Condition Accessories HLP Series Pressure Controller (HLP830HLM) – the epitome of precision and reliability in HVAC systems. Engineered for optimal performance, this pressure controller ensures precise regulation of refrigerant pressures, guaranteeing efficient and stable operation of air conditioning units. With its advanced technology, the HLP830HLM offers real-time monitoring and adjustment, maintaining the ideal pressure levels for enhanced system efficiency. Crafted with durability in mind, it withstands high pressures and extreme conditions, ensuring long-lasting reliability. The user-friendly interface and intuitive controls simplify setup and adjustments, making it a preferred choice for HVAC professionals. Whether for residential or commercial applications, our HLP Series Pressure Controller is the key to maintaining consistent cooling performance, maximizing energy efficiency, and ensuring a comfortable indoor environment year-round...
 Specs:
-  Low Pressure Range: -0.2 to 7.5 bar
-  High Pressure Range: 8 to 32 bar
-  Reset: Auto LP / Manual HP
-  Contact System: SPDT
+  Range: -0.5 to 30 bar
+  Reset: Auto Reset / Manual Reset
+  Contact System: SPDT Heavy Duty Microswitch
+  Enclosure: IP44 Protective Casing
 InStock: Yes

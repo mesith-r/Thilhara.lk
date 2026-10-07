@@ -1,25 +1,27 @@
-# Category: Coldroom panel & door
+# Category: Coldroom Panel And Door
+
 [PRODUCT]
-Name: Polyurethane (PUF) Insulated Cold Room Wall Panel 100mm
-Image: puf-panel-100mm.jpg
-Brand: Thilhara Thermal
-Model: PUF-100-CAM
-Description: High-density CFC-free polyurethane foam insulated sandwich panels equipped with tongue-and-groove cam-lock interlocking mechanism for rapid airtight installation.
+Name: Cold Room Pannels
+Image: cold_room_pannels.png
+Brand: Thilhara Genuine
+Model: TH-13
+Description: Upgrade your cold storage facility with our Cold Room Accessories, tailored for Cold Room Panels. Engineered for efficiency, these accessories enhance insulation, creating airtight seals between panels for optimal temperature control. Crafted from high-quality materials, they resist extreme temperatures, maintaining a consistent chilled environment. Easy to install, they streamline construction or retrofitting, saving time and labor costs. Precision fit ensures seamless integration, reducing energy consumption and operational expenses. Whether for industrial storage, pharmaceuticals, or food preservation, our Cold Room Panels and accessories offer unparalleled insulation, preserving product integrity. Elevate your cold storage with these high-performance accessories, ensuring reliable temperature regulation and maximizing your goods' longevity..
 Specs:
-  Panel Thickness: 100 mm
-  Foam Density: 40-42 kg/m³
-  Facing Sheet: 0.5mm Pre-painted Galvanized Iron (PPGI)
-  Thermal Conductivity: 0.022 W/m.K
+  Core Material: High Density Polyurethane Foam (PUR / PIR)
+  Density: 40-42 kg/m³
+  Cladding: Pre-painted Galvanized Steel / Food Grade Coating
+  Lock Mechanism: Cam-Lock System with Air-tight Gaskets
 InStock: Yes
 
 [PRODUCT]
-Name: Heavy Duty Hinged Cold Room Door with Heater
-Image: coldroom-hinged-door.jpg
-Brand: Thilhara
-Model: CRD-H100
-Description: Fully insulated hinged cold room door with perimeter heating cable to eliminate frost formation around seals in sub-zero freezer rooms.
+Name: Cold Room
+Image: cold_room.png
+Brand: Thilhara Genuine
+Model: TH-2
+Description: Elevate your cooling solutions with our Air Condition Accessories for Cold Rooms. Designed for industrial and commercial spaces, these accessories enhance your cold room's efficiency and ensure optimal performance. Our precision-engineered temperature sensors provide accurate readings, allowing you to maintain the perfect climate for your products. The heavy-duty insulation materials and door seals guarantee minimal heat exchange, reducing energy consumption and operational costs. Additionally, our advanced air filters trap dust and impurities, ensuring clean, refreshing air circulation. The easy-to-install digital thermostats enable precise temperature control, adapting to varying cooling needs seamlessly. With our Air Condition Accessories, your cold room becomes a model of efficiency, preserving your inventory while maximizing energy savings. Experience unparalleled reliability and performance, ensuring your products stay fresh and your energy bills stay low..
 Specs:
-  Door Leaf Thickness: 100 mm
-  Frame Heating: 230V Perimeter Resistance Wire
-  Clear Opening: 900 mm x 1900 mm
+  Core Material: High Density Polyurethane Foam (PUR / PIR)
+  Density: 40-42 kg/m³
+  Cladding: Pre-painted Galvanized Steel / Food Grade Coating
+  Lock Mechanism: Cam-Lock System with Air-tight Gaskets
 InStock: Yes
